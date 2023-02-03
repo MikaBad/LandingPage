@@ -1,0 +1,24 @@
+.diagonal {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: #0a1639;
+  z-index: -1;
+  margin-top: -250px;
+}
+.diagonal::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: inherit;
+  transform-origin: bottom right;
+  transform: skewy(4deg);
+  z-index: -1;
+}
+
+/* @media (max-width: 1080px) {
+  .tel1 {
+    width: 100px;
+  }
+} */

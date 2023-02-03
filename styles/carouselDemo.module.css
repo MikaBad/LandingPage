@@ -1,0 +1,290 @@
+.carouseldemo .productitem .productitemcontent {
+  border: 2px solid var(--surface-d);
+  border-radius: 6px;
+  margin: 0.3rem;
+  padding: 1rem 0;
+  height: 246px;
+  width: 392px;
+  position: relative;
+  margin-top: 72px;
+  background-color: aliceblue;
+}
+
+.cuisine {
+  margin-left: 12px;
+  background-color: #0a1639;
+  padding: 3px;
+  border-radius: 4px;
+  color: white;
+  position: absolute;
+  z-index: 2;
+}
+
+.name {
+  margin-top: 180px;
+}
+
+.content {
+  margin-left: 8px;
+  color: #0a1639;
+  margin-top: -20px;
+}
+
+.note {
+  margin-left: 30px;
+  background-color: #0a1639;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+.carouseldemo .productitem .productimage {
+  width: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.carouseldemo {
+  margin-top: 1200px;
+  background-color: #0a1639;
+}
+
+/* @media (max-width: 380px) {
+  .carouseldemo .productitem .productitemcontent {
+    border: 2px solid var(--surface-d);
+    border-radius: 6px;
+    margin: 0.3rem;
+    padding: 1rem 0;
+    height: 296px;
+    width: 215px;
+    position: relative;
+    margin-top: 72px;
+    background-color: aliceblue;
+  }
+
+  .cuisine {
+    margin-left: 12px;
+    background-color: #0a1639;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .note {
+    margin-left: 50px;
+    margin-top: 30px;
+    position: absolute;
+    background-color: #0a1639;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+  }
+} */
+
+@media (min-width: 320px) {
+  .carouseldemo .productitem .productitemcontent {
+    border: 2px solid var(--surface-d);
+    border-radius: 6px;
+    margin: 0.3rem;
+    padding: 1rem 0;
+    height: 296px;
+    width: 215px;
+    position: relative;
+    margin-top: 72px;
+    background-color: aliceblue;
+    font-size: small;
+  }
+
+  .imagecarou {
+    padding: 15px;
+    position: absolute;
+    width: 220px;
+  }
+
+  .favoris {
+    position: absolute;
+    margin-left: 160px;
+    z-index: 1;
+    margin-top: -13px;
+  }
+
+  .cuisine {
+    margin-left: 12px;
+    background-color: #0a1639;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    width: auto;
+  }
+
+  .note {
+    margin-left: 120px;
+    margin-top: 30px;
+    position: absolute;
+    background-color: #0a1639;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+  }
+}
+
+@media (min-width: 610px) {
+  .carouseldemo .productitem .productitemcontent {
+    border: 2px solid var(--surface-d);
+    border-radius: 6px;
+    margin: 0.3rem;
+    padding: 1rem 0;
+    height: 296px;
+    width: 250px;
+    position: relative;
+    margin-top: 72px;
+    background-color: aliceblue;
+    font-size: small;
+  }
+
+  .imagecarou {
+    padding: 15px;
+    position: absolute;
+    width: 255px;
+  }
+
+  .favoris {
+    position: absolute;
+    margin-left: 200px;
+    z-index: 1;
+    margin-top: -13px;
+  }
+
+  .cuisine {
+    margin-left: 12px;
+    background-color: #0a1639;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    width: auto;
+  }
+
+  .note {
+    margin-left: 130px;
+    margin-top: 30px;
+    position: absolute;
+    background-color: #0a1639;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  .carouseldemo .productitem .productitemcontent {
+    border: 2px solid var(--surface-d);
+    border-radius: 6px;
+    margin: 0.3rem;
+    padding: 1rem 0;
+    height: 296px;
+    width: 300px;
+    position: relative;
+    margin-top: 72px;
+    background-color: aliceblue;
+  }
+
+  .imagecarou {
+    padding: 15px;
+    position: absolute;
+    width: 300px;
+  }
+
+  .favoris {
+    position: absolute;
+    margin-left: 240px;
+    z-index: 1;
+    margin-top: -13px;
+  }
+
+  .cuisine {
+    margin-left: 12px;
+    background-color: #0a1639;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    width: auto;
+  }
+
+  .note {
+    margin-left: -30px;
+    margin-top: 30px;
+    position: absolute;
+    background-color: #0a1639;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+  }
+}
+
+@media (min-width: 915px) {
+  .imagecarou {
+    padding: 15px;
+    position: absolute;
+    width: 400px;
+  }
+
+  .favoris {
+    position: absolute;
+    margin-left: 340px;
+    z-index: 1;
+    margin-top: -13px;
+  }
+
+  .carouseldemo .productitem .productitemcontent {
+    border: 2px solid var(--surface-d);
+    border-radius: 6px;
+    margin: 0.3rem;
+    padding: 1rem 0;
+    height: 250px;
+    width: 400px;
+    position: relative;
+    margin-top: 72px;
+    background-color: aliceblue;
+  }
+
+  .cuisine {
+    margin-left: 12px;
+    background-color: #0a1639;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    width: auto;
+  }
+
+  .note {
+    margin-left: 30px;
+    margin-top: 10px;
+    position: absolute;
+    background-color: #0a1639;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+  }
+}
+
+@media (max-width: 767px) {
+  .carouseldemo {
+    margin-top: 1150px;
+    background-color: #0a1639;
+  }
+}
+@media (min-width: 768px) {
+  .carouseldemo {
+    margin-top: 1160px;
+    background-color: #0a1639;
+  }
+}
