@@ -44,7 +44,7 @@ const Cardwelcome = () => {
           alt=""
         />
         <div className=" lg:text-white sm:ml-8 ml-2">
-          <h1 className="xl:text-6xl lg:text-5xl hidden lg:block">Livraison</h1>
+          <h1 className="xl:text-6xl lg:text-5xl hidden lg:block">Livraiso</h1>
           <span
             style={{
               width: "200px",
