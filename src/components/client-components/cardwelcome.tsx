@@ -6,11 +6,11 @@ import { Button } from "primereact/button";
 
 const Cardwelcome = () => {
   // const header = (
-    // <img
-    //   alt="Card"
-    //   src="images/usercard.png"
-    //   onError={(e) => (e.target.src = "../../../public/assets/P1.png")}
-    // />
+  // <img
+  //   alt="Card"
+  //   src="images/usercard.png"
+  //   onError={(e) => (e.target.src = "../../../public/assets/P1.png")}
+  // />
   // )
   // const footer = (
   //     <span>
@@ -44,7 +44,7 @@ const Cardwelcome = () => {
           alt=""
         />
         <div className=" lg:text-white sm:ml-8 ml-2">
-          <h1 className="xl:text-6xl lg:text-5xl hidden lg:block">Livraiso</h1>
+          <h1 className="xl:text-6xl lg:text-5xl hidden lg:block">Livraison</h1>
           <span
             style={{
               width: "200px",
