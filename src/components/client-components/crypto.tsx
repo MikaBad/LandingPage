@@ -31,6 +31,7 @@ const Crypto = () => {
       </div>
       <div>
         <Image
+        id="crypto"
           src={stats}
           className="w-full -z-1 "
           alt="..."

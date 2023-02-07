@@ -89,7 +89,7 @@ const Navbar = () => {
           </div>
         </h1>
         <div className="flex justify-content-between no-underline align-items-center">
-          <h2 className="mr-3 hidden lg:block ">
+          <h2 className="mr-6 hidden lg:block text-xl">
             <Link
               href="/client"
               className="no-underline text-white text- hover:text-red-700"
@@ -97,7 +97,7 @@ const Navbar = () => {
               Accueil
             </Link>
           </h2>
-          <h2 className="mr-3 hidden lg:block">
+          <h2 className="mr-6 hidden lg:block text-xl">
             <Link
               href="/rider"
               className="no-underline text-white hover:text-red-700"
@@ -105,7 +105,7 @@ const Navbar = () => {
               Devenez livreur
             </Link>
           </h2>
-          <h2 className="mr-3 hidden lg:block">
+          <h2 className="mr-6 hidden lg:block text-xl">
             <Link
               href="/restorer"
               className="no-underline text-white hover:text-red-700"

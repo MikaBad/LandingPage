@@ -287,12 +287,12 @@ const Caroussel = () => {
         <Carousel
           value={listPartenaire}
           numVisible={3.5}
-          // numScroll={1}
+          numScroll={1}
           responsiveOptions={responsiveOptions}
           itemTemplate={productTemplate}
           className="custom-carousel"
           circular
-          // autoplayInterval={3000}
+          autoplayInterval={3000}
           header={
             <h5 className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl ml-7 text-white">
               {" "}
@@ -302,15 +302,15 @@ const Caroussel = () => {
         />
       </div>
 
-      <div className="card">
+      <div className="card ">
         <Carousel
           value={listPartenaire}
-          numVisible={3.5}
-          // numScroll={1}
+          numVisible={4}
+          numScroll={1}
           responsiveOptions={responsiveOptions}
-          className="custom-carousel -mt-5"
+          className="custom-carousel -mt-5 "
           circular
-          // autoplayInterval={3000}
+          autoplayInterval={3500}
           itemTemplate={productTemplate}
           header={<h5></h5>}
         />
