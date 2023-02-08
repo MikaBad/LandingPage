@@ -286,6 +286,7 @@ const CardVideoRest = () => {
             className="lg:mr- sm:ml-8 ml-2 xl:w-max lg:h-30rem md:w-max mt-4 
           lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem"
             alt=""
+            style={{ objectFit: "cover", objectPosition: "center" }}
           />
           <div className="sm:ml-8 ml-2 lg:hidden">
             <p
