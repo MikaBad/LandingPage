@@ -1,7 +1,7 @@
 import Image from "next/image";
 import PLiv2 from "../../../public/assets/PLiv2.png";
 import P2 from "../../../public/assets/P2.png";
-import restoM from "../../../public/assets/restoM.png";
+import resto from "../../../public/assets/RestoMars.png";
 import And from "../../../public/assets/AndB.png";
 import styles from "../../../styles/cardVideoRest.module.css";
 import LogoContacts from "../client-components/logocontacts";
@@ -122,12 +122,15 @@ const CardVideoRest = () => {
               </h1>
             </div>
           </div>
-          <Image
-            src={restoM}
-            className="lg:mr- sm:ml-8 ml-2 xl:w-max lg:h-30rem md:w-max mt-4 
+          <div>
+            <Image
+              src={resto}
+              className="lg:mr- sm:ml-8 ml-2 xl:w-max lg:h-30rem md:w-max mt-4 
           lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem"
-            alt=""
-          />
+              alt="..."
+            />
+          </div>
+
           <div className="sm:ml-8 ml-2 lg:hidden">
             <h1 className="text-center mt-8">
               <span
@@ -282,7 +285,7 @@ const CardVideoRest = () => {
             </div>
           </div>
           <Image
-            src={restoM}
+            src={resto}
             className="lg:mr- sm:ml-8 ml-2 xl:w-max lg:h-30rem md:w-max mt-4 
           lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem"
             alt="..."
