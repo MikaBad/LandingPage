@@ -1,7 +1,7 @@
 import Image from "next/image";
 import PLiv2 from "../../../public/assets/PLiv2.png";
 import P2 from "../../../public/assets/P2.png";
-import restoM from "../../../public/assets/RestoM.png";
+import restoM from "../../../public/assets/restoM.png";
 import And from "../../../public/assets/AndB.png";
 import styles from "../../../styles/cardVideoRest.module.css";
 import LogoContacts from "../client-components/logocontacts";
@@ -285,7 +285,7 @@ const CardVideoRest = () => {
             src={restoM}
             className="lg:mr- sm:ml-8 ml-2 xl:w-max lg:h-30rem md:w-max mt-4 
           lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem"
-            alt=""
+            alt="..."
             style={{ objectFit: "cover", objectPosition: "center" }}
           />
           <div className="sm:ml-8 ml-2 lg:hidden">
