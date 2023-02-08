@@ -12,7 +12,7 @@ const CardVideoRest = () => {
       <div className="align-content-around z-1">
         <div className="lg:flex mt-8">
           <h1
-            className="xl:text-6xl lg:text-5xllg:hidden ml-8"
+            className="xl:text-6xl lg:text-5xl lg:hidden ml-8"
             style={{ color: "#0a1639" }}
           >
             La livraison Nojyk
@@ -32,7 +32,7 @@ const CardVideoRest = () => {
 
           <Image
             src={PLiv2}
-            className="sm:ml-8 xl:w-max lg:w-5 lg:h-25rem md:w-max lg:-ml-8 mt-4 
+            className="sm:ml-8 xl:w-max lg:w-5 lg:h-25rem md:w-max lg:ml-8 mt-4 
           lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem ml-2"
             alt=""
           />
@@ -91,7 +91,7 @@ const CardVideoRest = () => {
               <h1 className="text-center mt-8">
                 <span
                   className="p-2 w-5 text-white 
-            sm:text-4xl lg:text-5xl xl:text-6xl text-xl border-round"
+            sm:text-3xl md:4xl lg:text-5xl xl:text-6xl text-xl border-round"
                   style={{ backgroundColor: "#3C7BF9" }}
                 >
                   Faites le choix d'une app
@@ -100,7 +100,7 @@ const CardVideoRest = () => {
               <h1 className="text-center -mt-4 sm:-mt-3 md:-mt-4 mr-8">
                 <span
                   className=" p-2 w-5 text-white 
-                  sm:text-4xl lg:text-5xl xl:text-6xl text-xl border-round"
+                  sm:text-3xl md:4xl lg:text-5xl xl:text-6xl text-xl border-round"
                   style={{ backgroundColor: "#3C7BF9" }}
                 >
                   100% made in France,
@@ -114,7 +114,7 @@ const CardVideoRest = () => {
                 ></Image>
                 <span
                   className="p-2 w-5 text-white 
-                  sm:text-4xl lg:text-5xl xl:text-6xl text-xl border-round"
+                  sm:text-3xl md:4xl lg:text-5xl xl:text-6xl text-xl border-round"
                   style={{ backgroundColor: "#3C7BF9" }}
                 >
                   développé à Marseille
@@ -125,7 +125,7 @@ const CardVideoRest = () => {
           <div>
             <Image
               src={resto}
-              className="lg:mr- sm:ml-8 ml-2 xl:w-max lg:h-30rem md:w-max mt-4 
+              className="lg:mr-8 sm:ml-8 ml-2 xl:w-max lg:h-25rem md:w-max mt-4 
           lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem"
               alt="..."
             />
@@ -166,12 +166,13 @@ const CardVideoRest = () => {
             </h1>
           </div>
         </div>
+
         <div className="lg:flex mt-8">
           <h1
-            className="xl:text-6xl lg:text-5xllg:hidden ml-8"
+            className="xl:text-6xl lg:text-5xl lg:hidden ml-8"
             style={{ color: "#0a1639" }}
           >
-            Respect des restaurateurs
+            La livraison Nojyk
           </h1>
           <span
             style={{
@@ -187,8 +188,8 @@ const CardVideoRest = () => {
           ></span>
 
           <Image
-            src={P2}
-            className="sm:ml-8 xl:w-max lg:w-5 lg:h-25rem md:w-max lg:-ml-8 mt-4 
+            src={PLiv2}
+            className="sm:ml-8 xl:w-max lg:w-5 lg:h-25rem md:w-max lg:ml-8 mt-4 
           lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem ml-2"
             alt=""
           />
@@ -284,13 +285,15 @@ const CardVideoRest = () => {
               </p>
             </div>
           </div>
-          <Image
-            src={resto}
-            className="lg:mr- sm:ml-8 ml-2 xl:w-max lg:h-30rem md:w-max mt-4 
+          <div>
+            <Image
+              src={resto}
+              className="lg:mr-8 sm:ml-8 ml-2 xl:w-max lg:h-25rem md:w-max mt-4 
           lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem"
-            alt="..."
-            style={{ objectFit: "cover", objectPosition: "center" }}
-          />
+              alt="..."
+              style={{ borderRadius: "20px" }}
+            />
+          </div>
           <div className="sm:ml-8 ml-2 lg:hidden">
             <p
               className="text-left sm:text-2xl text-xl lg:hidden"
