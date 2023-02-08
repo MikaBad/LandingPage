@@ -1,5 +1,5 @@
 import Image from "next/image";
-import stats from "../../../public/assets/stats.png";
+import stats from "../../../public/assets/Stats.png";
 import Tel from "../../../public/assets/Tel1.png";
 import logoB from "../../../public/assets/logoBlue.png";
 import badge1 from "../../../public/assets/badge1.png";
@@ -31,7 +31,7 @@ const Crypto = () => {
       </div>
       <div>
         <Image
-        id="crypto"
+          id="crypto"
           src={stats}
           className="w-full -z-1 "
           alt="..."

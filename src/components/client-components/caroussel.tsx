@@ -9,7 +9,7 @@ import Image from "next/image";
 import Favoris from "../../../public/assets/Favoris.svg";
 
 const Caroussel = () => {
-  const [partenaires, setPartenaires] = useState([]);
+  // const [partenaires, setPartenaires] = useState([]);
 
   const listPartenaire = [
     {
