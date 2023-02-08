@@ -302,7 +302,7 @@ const Caroussel = () => {
         />
       </div>
 
-      <div className="card ">
+      <div className="card">
         <Carousel
           value={listPartenaire}
           numVisible={4}
