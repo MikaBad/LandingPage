@@ -95,6 +95,9 @@ body {
   #infosbtn {
     width: 850px;
   }
+  #txtflag {
+    margin-top: 30px !important;
+  }
 }
 
 @media (max-width: 1499px) {
@@ -135,6 +138,9 @@ body {
   #infosbtn {
     width: 820px;
   }
+  #txtflag {
+    margin-top: 30px !important;
+  }
 }
 
 @media (min-width: 1260px) {
@@ -151,6 +157,9 @@ body {
   #card {
     width: 520px;
     height: 450px;
+  }
+  #txtflag {
+    margin-top: 50px !important;
   }
 }
 
@@ -176,6 +185,9 @@ body {
     width: 520px;
     height: 450px;
   }
+  #txtflag {
+    margin-top: 60px !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -184,7 +196,7 @@ body {
     padding-bottom: 110px;
   }
   #txtflag {
-    margin-top: 20px;
+    margin-top: 70px !important;
   }
   #flag1 {
     width: 260px;
@@ -417,7 +429,7 @@ body {
   }
 
   #txtflag {
-    margin-top: 50px;
+    margin-top: 85px;
   }
 }
 
