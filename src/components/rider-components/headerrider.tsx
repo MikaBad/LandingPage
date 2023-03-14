@@ -10,7 +10,7 @@ const HeaderRider = () => {
           <h1>
             <span
               className="p-2 w-5 text-white 
-            sm:text-4xl md:text-5xl lg:text-6xl text-3xl border-round"
+            sm:text-4xl md:text-5xl lg:text-6xl text-2xl border-round"
               style={{ backgroundColor: "#D71023" }}
             >
               Rejoignez la nouvelle
@@ -18,8 +18,9 @@ const HeaderRider = () => {
           </h1>
           <h1>
             <span
-              className=" p-2 w-5 text-white sm:text-4xl
-               md:text-5xl lg:text-6xl text-3xl border-round -rotate-15"
+              id="rotate3"
+              className=" p-2 w-12 text-white sm:text-4xl 
+               md:text-5xl lg:text-6xl text-2xl border-round ml-5 "
               style={{ backgroundColor: "#D71023" }}
             >
               génération de livreur
@@ -40,8 +41,8 @@ const HeaderRider = () => {
         <div className={styles.content}>
           <span
             className="flex sm:text-4xl text-white p-4 border-round 
-            md:w-5 justify-content-center mt-8"
-            style={{ backgroundColor: "#3C7BF9" }}
+            md:w-5 justify-content-center"
+            style={{ backgroundColor: "#3C7BF9", marginTop: "200px" }}
           >
             Devenir rider
           </span>

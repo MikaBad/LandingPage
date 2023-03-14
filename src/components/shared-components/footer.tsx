@@ -21,8 +21,8 @@ const Footer = () => {
           />
         </h1>
       </div>
-      <div className="grid col-8 ml-4 justify-content-between">
-        <div className="hidden sm:block">
+      <div className="grid col-8 sm:col-11 md:col-10 lg:col-11 ml-4 justify-content-between">
+        <div className="hidden sm:block gap-6">
           <h6 className="sm:text-lg md:text-xl text-base">LIENS</h6>
           <ul className={styles.ul}>
             <li className="pb-3">
@@ -35,18 +35,26 @@ const Footer = () => {
             </li>
             <li className="pb-3">
               <Link
-                href="/"
+                href="/rider"
                 className="no-underline text-white hover:text-red-700 md:text-lg text-base"
               >
                 Page livreur
               </Link>
             </li>
-            <li>
+            <li className="pb-3">
               <Link
-                href="/"
+                href="/restorer"
                 className="no-underline text-white hover:text-red-700 md:text-lg text-base"
               >
                 Page restaurateur
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/nous"
+                className="no-underline text-white hover:text-red-700 md:text-lg text-base"
+              >
+                À propos de N
               </Link>
             </li>
           </ul>
@@ -54,8 +62,11 @@ const Footer = () => {
         <div>
           <h6 className="sm:text-lg md:text-xl text-base">CONTACT</h6>
           <ul className={styles.ul}>
-            <li className="pb-3 md:text-lg text-base">Tel:06.00.00.00.00</li>
-            <li className="md:text-lg text-base">Mail:contact@nojyk.fr</li>
+            <li className="pb-3 md:text-lg text-base">Tel: 06.00.00.00.00</li>
+            <li className="pb-3 md:text-lg text-base">
+              Mail: contact@nojyk.fr
+            </li>
+            <li className="md:text-lg text-base">Adresse: Marseille, FRANCE</li>
           </ul>
         </div>
         <div>

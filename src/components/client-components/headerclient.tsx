@@ -24,7 +24,7 @@ const HeaderClient = () => {
           <h1 id="rotate1">
             <span
               className="p-2 w-5 text-white 
-            sm:text-4xl md:text-5xl lg:text-6xl text-3xl border-round"
+            sm:text-4xl md:text-5xl lg:text-6xl text-2xl border-round"
               style={{ backgroundColor: "#D71023" }}
             >
               Qu'est ce qu'on mange
@@ -32,8 +32,8 @@ const HeaderClient = () => {
           </h1>
           <h1 id="rotate2">
             <span
-              className=" p-2 w-5 text-white sm:text-4xl
-               md:text-5xl lg:text-6xl text-3xl border-round -rotate-15"
+              className=" p-2 w-5 text-white sm:text-4xl ml-8 
+               md:text-5xl lg:text-6xl text-2xl border-round -rotate-15"
               style={{ backgroundColor: "#D71023" }}
             >
               ce soir ?

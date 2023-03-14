@@ -59,7 +59,7 @@ const VideoClient = () => {
           100% made in France,
         </span>
       </h1>
-      <h1 className="text-center sm:-mt-3 ml-7 -mt-4">
+      <h1 className="text-center sm:-mt-3 sm:ml-7 -mt-4">
         <Image
           src={And}
           alt=""
@@ -73,15 +73,20 @@ const VideoClient = () => {
           développé à Marseille
         </span>
       </h1>
-      <h1 className=" mt-8 sm:mt-7 md:mt- sm:flex justify-content-between 
-      align-items-center">
+      <h1
+        id="txtflag"
+        className="lg:flex justify-content-between 
+      align-items-center"
+      >
         <Image
+          id="flag"
           src={Flag}
           alt=""
-          className="sm:w-20rem sm:h-22rem ml-3 -my-4 hidden sm:block"
+          className="sm:w-20rem xl:w-3 sm:h-25rem ml-3 -my-4 hidden lg:block"
         ></Image>
         <span
-          className=" mr-8 mt-8 sm:mt-6 md:mt- text-center sm:text-left"
+          id="ftxt"
+          className=" mt-8 sm:mt-6  text-center lg:text-left"
           style={{ color: "#0A1639" }}
         >
           <p className="md:text-xl sm:text-lg text-base">
@@ -100,9 +105,10 @@ const VideoClient = () => {
           </p>
         </span>
         <Image
+          id="flag1"
           src={Flag}
           alt=""
-          className="sm:w-20rem sm:h-22rem ml-3 -my-4 w-12rem h-14rem sm:hidden"
+          className="sm:w-20rem sm:h-auto ml-3 -my-4  lg:hidden"
         ></Image>
       </h1>
     </div>

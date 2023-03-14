@@ -10,7 +10,7 @@ const HeaderRest = () => {
           <h1 id="rotate5">
             <span
               className="p-2 w-5 text-white 
-            sm:text-4xl md:text-5xl lg:text-6xl text-3xl border-round "
+            sm:text-4xl md:text-5xl lg:text-6xl text-2xl border-round "
               style={{ backgroundColor: "#D71023" }}
             >
               Qu'est ce qu'on mange
@@ -19,7 +19,7 @@ const HeaderRest = () => {
           <h1 id="rotate6">
             <span
               className=" p-2 w-5 text-white sm:text-4xl
-               md:text-5xl lg:text-6xl text-3xl border-round -rotate-15"
+               md:text-5xl lg:text-6xl text-2xl border-round -rotate-15"
               style={{ backgroundColor: "#D71023" }}
             >
               ce soir ?

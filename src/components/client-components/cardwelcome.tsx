@@ -26,7 +26,7 @@ const Cardwelcome = () => {
         </h1>
         <span
           style={{
-            width: "200px",
+            width: "110px",
             backgroundColor: "#3C7BF9",
             height: "8px",
             borderRadius: "20px",
@@ -36,23 +36,27 @@ const Cardwelcome = () => {
           }}
           className="justify-content-center relative lg:hidden ml-8"
         ></span>
-
         <Image
+          id="card"
           src={P1}
-          className="sm:ml-8 xl:w-max lg:h-30rem md:w-max mt-4 
-          lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem ml-2"
+          className="sm:ml-8 mt-4 
+          lg:mt-0 ml-2"
           alt=""
         />
+        {/* lg:h-30rem md:w-max sm:w-30rem sm:h-25rem w-19rem h-18rem */}
         <div className=" lg:text-white sm:ml-8 ml-2">
-          <h1 className="xl:text-6xl lg:text-5xl hidden lg:block">Livraison</h1>
+          <h1 className="xl:text-6xl lg:text-5xl hidden lg:block -mt-2">
+            Livraison
+          </h1>
           <span
+            id="bluelineL"
             style={{
               width: "200px",
               backgroundColor: "#3C7BF9",
               height: "8px",
               borderRadius: "20px",
               display: "flex",
-              marginLeft: "0px",
+              // marginLeft: "0px",
               marginTop: "-15px",
             }}
             className="justify-content-center relative hidden lg:block"
@@ -68,21 +72,35 @@ const Cardwelcome = () => {
         </div>
       </div>
       <div className="lg:flex justify-content-end mt-8">
-        <div className="mr-" style={{ color: "#0a1639" }}>
-          <h1 className="lg:text-right xl:text-6xl lg:text-5xl ml-8 lg:ml-0 ">
+        <div style={{ color: "#0a1639" }}>
+          <h1 className="lg:text-right xl:text-6xl lg:text-5xl ml-8 lg:ml-0 -mt-2 ">
             Click & Collect
           </h1>
           <span
+            id="bluelineR2"
             style={{
-              width: "200px",
+              // width: "200px",
               backgroundColor: "#3C7BF9",
               height: "8px",
               borderRadius: "20px",
-              margin: "auto",
+              // margin: "auto",
               display: "flex",
               marginTop: "-15px",
             }}
-            className="justify-content-center relative lg:ml-8 ml-8"
+            className="justify-content-center"
+          ></span>
+          <span
+            id="bluelineR"
+            style={{
+              // width: "200px",
+              backgroundColor: "#3C7BF9",
+              height: "8px",
+              borderRadius: "20px",
+              // margin: "auto",
+              display: "flex",
+              marginTop: "-15px",
+            }}
+            className="justify-content-center"
           ></span>
           <p className="text-right text-2xl hidden lg:block">
             {" "}
@@ -96,9 +114,10 @@ const Cardwelcome = () => {
           </p>
         </div>
         <Image
+          id="card"
           src={P2}
-          className="lg:mr- sm:ml-8 ml-2 xl:w-max lg:h-30rem md:w-max mt-4 
-          lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem"
+          className="sm:ml-8 ml-2  mt-4 
+          lg:mt-0"
           alt=""
         />
         <div className="sm:ml-8 ml-2">

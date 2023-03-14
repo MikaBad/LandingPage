@@ -12,101 +12,89 @@ const CardVideoRest = () => {
       <div className="align-content-around z-1">
         <div className="lg:flex mt-8">
           <h1
-            className="xl:text-6xl lg:text-5xl lg:hidden ml-8"
-            style={{ color: "#0a1639" }}
+            id="titleRest"
+            className="xl:text-6xl lg:text-5xl 
+             lg:hidden text-2xl ml-6 sm:ml-8"
+            // style={{ color: "#0a1639" }}
           >
-            La livraison Nojyk
+            Livraison Nojyk
           </h1>
           <span
+            id="bluelineCL"
             style={{
-              width: "200px",
+              width: "110px",
               backgroundColor: "#3C7BF9",
               height: "8px",
               borderRadius: "20px",
               display: "flex",
-              marginLeft: "0px",
+              // marginLeft: "0px",
               marginTop: "-15px",
             }}
-            className="justify-content-center relative lg:hidden ml-8"
+            className="justify-content-center relative lg:hidden sm:ml-8"
           ></span>
 
           <Image
+            id="card"
             src={PLiv2}
-            className="sm:ml-8 xl:w-max lg:w-5 lg:h-25rem md:w-max lg:ml-8 mt-4 
-          lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem ml-2"
+            className="sm:ml-8  lg:ml-8 mt-4 
+          lg:mt-0  ml-2"
             alt=""
           />
           <div className={styles.diagonalbox}>
             <div className={styles.contento}></div>
           </div>
           <div className=" lg:text-white sm:ml-8 ml-2">
-            <h1 className="xl:text-6xl lg:text-5xl hidden lg:block">
-              La livraison Nojyk
+            <h1 className="xl:text-6xl lg:text-4xl hidden lg:block -mt-2">
+              Livraison Nojyk
             </h1>
             <span
+              id="bluelineL"
               style={{
                 width: "200px",
                 backgroundColor: "#3C7BF9",
                 height: "8px",
                 borderRadius: "20px",
                 display: "flex",
-                marginLeft: "0px",
+                // marginLeft: "0px",
                 marginTop: "-15px",
               }}
               className="justify-content-center relative hidden lg:block"
             ></span>
-            <p className="sm:text-2xl text-xl" style={{ color: "white" }}>
+            <p className="sm:text-2xl text-xl text-white">
               {" "}
               Entrez votre adresse et faites vous livrer,
             </p>
-            <p className="sm:text-2xl text-xl" style={{ color: "white" }}>
+            <p className="sm:text-2xl text-xl  text-white">
               à domicile, sur votre lieu de travail, ...
             </p>
-            <p className="sm:text-2xl text-xl" style={{ color: "white" }}>
+            <p className="sm:text-2xl text-xl text-white">
               ou vous le souhaitez !
             </p>
           </div>
         </div>
         <div className="lg:flex justify-content-end mt-8 ">
           <div>
-            {/* <h1
-              className="lg:text-right xl:text-6xl lg:text-5xl ml-8 lg:ml-0 lg:hidden"
-              style={{ color: "white" }}
-            >
-              Click & Collect
-            </h1>
-            <span
-              style={{
-                width: "200px",
-                backgroundColor: "#3C7BF9",
-                height: "8px",
-                borderRadius: "20px",
-                margin: "auto",
-                display: "flex",
-                marginTop: "-15px",
-              }}
-              className="justify-content-center relative lg:ml-8 ml-8 lg:hidden"
-            ></span> */}
             <div className=" hidden lg:block">
               <h1 className="text-center mt-8">
                 <span
                   className="p-2 w-5 text-white 
-            sm:text-3xl md:4xl lg:text-5xl xl:text-6xl text-xl border-round"
+            sm:text-3xl md:4xl lg:text-3xl 
+            xl:text-5xl text-xl border-round"
                   style={{ backgroundColor: "#3C7BF9" }}
                 >
                   Faites le choix d'une app
                 </span>
               </h1>
-              <h1 className="text-center -mt-4 sm:-mt-3 md:-mt-4 mr-8">
+              <h1 className="text-center -mt-4 sm:-mt-3 md:-mt-3 mr-8">
                 <span
                   className=" p-2 w-5 text-white 
-                  sm:text-3xl md:4xl lg:text-5xl xl:text-6xl text-xl border-round"
+                  sm:text-3xl md:4xl lg:text-3xl xl:text-5xl text-xl border-round"
                   style={{ backgroundColor: "#3C7BF9" }}
                 >
                   100% made in France,
                 </span>
               </h1>
-              <h1 className="text-center sm:-mt-3 ml-7 -mt-4">
+              <h1 className="text-center sm:-mt-3 ml-7 lg:ml-0 -mt-4">
                 <Image
                   src={And}
                   alt=""
@@ -114,7 +102,7 @@ const CardVideoRest = () => {
                 ></Image>
                 <span
                   className="p-2 w-5 text-white 
-                  sm:text-3xl md:4xl lg:text-5xl xl:text-6xl text-xl border-round"
+                  sm:text-3xl md:4xl lg:text-3xl xl:text-5xl text-xl border-round"
                   style={{ backgroundColor: "#3C7BF9" }}
                 >
                   développé à Marseille
@@ -124,9 +112,10 @@ const CardVideoRest = () => {
           </div>
           <div>
             <Image
+              id="card"
               src={resto}
-              className="lg:mr-8 sm:ml-8 ml-2 xl:w-max lg:h-25rem md:w-max mt-4 
-          lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem"
+              className="lg:mr-8 sm:ml-8 ml-2 mt-4 
+          lg:mt-0 "
               alt="..."
             />
           </div>
@@ -135,16 +124,16 @@ const CardVideoRest = () => {
             <h1 className="text-center mt-8">
               <span
                 className="p-2 w-5 text-white 
-            sm:text-4xl md:text-5xl lg:text-6xl text-2xl border-round"
+            sm:text-4xl md:text-5xl lg:text-6xl text-xl border-round"
                 style={{ backgroundColor: "#3C7BF9" }}
               >
                 Faites le choix d'une app
               </span>
             </h1>
-            <h1 className="text-center -mt-4 sm:-mt-3 md:-mt-4 mr-8">
+            <h1 className="text-center -mt-4 sm:-mt-3 md:-mt-3 mr-8">
               <span
                 className=" p-2 w-5 text-white 
-            sm:text-4xl md:text-5xl lg:text-6xl text-2xl border-round"
+            sm:text-4xl md:text-5xl lg:text-6xl text-xl border-round"
                 style={{ backgroundColor: "#3C7BF9" }}
               >
                 100% made in France,
@@ -158,7 +147,7 @@ const CardVideoRest = () => {
               ></Image>
               <span
                 className="p-2 w-5 text-white 
-            sm:text-4xl md:text-5xl lg:text-6xl text-2xl border-round"
+            sm:text-4xl md:text-5xl lg:text-6xl text-xl border-round"
                 style={{ backgroundColor: "#3C7BF9" }}
               >
                 développé à Marseille
@@ -169,149 +158,113 @@ const CardVideoRest = () => {
 
         <div className="lg:flex mt-8">
           <h1
-            className="xl:text-6xl lg:text-5xl lg:hidden ml-8"
+            className="
+           lg:hidden text-2xl ml-6 sm:ml-8"
             style={{ color: "#0a1639" }}
           >
-            La livraison Nojyk
+            Respect des restaurateurs
           </h1>
           <span
+            id="bluelineCL"
             style={{
-              width: "200px",
+              width: "110px",
               backgroundColor: "#3C7BF9",
               height: "8px",
               borderRadius: "20px",
               display: "flex",
-              marginLeft: "0px",
+              // marginLeft: "0px",
               marginTop: "-15px",
             }}
-            className="justify-content-center relative lg:hidden ml-8"
+            className="justify-content-center relative lg:hidden sm:ml-8"
           ></span>
-
           <Image
+            id="card"
             src={PLiv2}
-            className="sm:ml-8 xl:w-max lg:w-5 lg:h-25rem md:w-max lg:ml-8 mt-4 
-          lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem ml-2"
+            className="sm:ml-8 lg:ml-8 mt-4 
+          lg:mt-0 ml-2"
             alt=""
           />
           <div className={styles.diagonalbox}>
             <div className={styles.contento}></div>
           </div>
           <div className=" lg:text-white sm:ml-8 ml-2">
-            <h1 className="xl:text-6xl lg:text-5xl hidden lg:block">
+            <h1 className="xl:text-6xl lg:text-4xl text-2xl hidden lg:block -mt-2">
               Respect des restaurateurs
             </h1>
             <span
+              id="bluelineL"
               style={{
                 width: "200px",
                 backgroundColor: "#3C7BF9",
                 height: "8px",
                 borderRadius: "20px",
                 display: "flex",
-                marginLeft: "0px",
+                // marginLeft: "0px",
                 marginTop: "-15px",
               }}
               className="justify-content-center relative hidden lg:block"
             ></span>
-            <p className="sm:text-2xl text-xl" style={{ color: "white" }}>
+            <p className="sm:text-2xl text-xl text-white">
               {" "}
               Entrez votre adresse et faites vous livrer,
             </p>
-            <p className="sm:text-2xl text-xl" style={{ color: "white" }}>
+            <p className="sm:text-2xl text-xl  text-white">
               à domicile, sur votre lieu de travail, ...
             </p>
-            <p className="sm:text-2xl text-xl" style={{ color: "white" }}>
+            <p className="sm:text-2xl text-xl text-white">
               ou vous le souhaitez !
             </p>
           </div>
         </div>
-        <div className="lg:flex justify-content-end mt-8 ">
-          <div>
+        <div className="lg:flex justify-content-end mt-8">
+          <div style={{ color: "#0a1639" }}>
             <h1
-              className="lg:text-right xl:text-6xl lg:text-5xl ml-8 lg:ml-0 lg:hidden"
-              style={{ color: "white" }}
+              id="titleRest0"
+              className="lg:text-right xl:text-6xl 
+              lg:text-4xl text-2xl ml-6 sm:ml-8  lg:ml-0 -mt-2"
             >
               Click & Collect
             </h1>
             <span
+              id="bluelineR"
               style={{
-                width: "200px",
+                // width: "200px",
                 backgroundColor: "#3C7BF9",
                 height: "8px",
                 borderRadius: "20px",
-                margin: "auto",
+                // margin: "auto",
                 display: "flex",
                 marginTop: "-15px",
               }}
-              className="justify-content-center relative lg:ml-8 ml-8 lg:hidden"
+              className="justify-content-center"
             ></span>
-            <div className=" hidden lg:block">
-              <h1
-                className="lg:text-right xl:text-6xl lg:text-5xl ml-8
-             lg:ml-0 hidden lg:block"
-                style={{ color: "#0a1639" }}
-              >
-                Click & Collect
-              </h1>
-              <span
-                style={{
-                  width: "200px",
-                  backgroundColor: "#3C7BF9",
-                  height: "8px",
-                  borderRadius: "20px",
-                  margin: "auto",
-                  display: "flex",
-                  marginTop: "-15px",
-                }}
-                className="justify-content-center relative lg:ml-8 ml-8"
-              ></span>
-              <p
-                className="text-right text-2xl hidden lg:block"
-                style={{ color: "#0a1639" }}
-              >
-                {" "}
-                Commandez en Click & Collect !
-              </p>
-              <p
-                className="text-right text-2xl hidden lg:block"
-                style={{ color: "#0a1639" }}
-              >
-                Sélectionnez votre repas et choisissez
-              </p>
-              <p
-                className="text-right text-2xl hidden lg:block"
-                style={{ color: "#0a1639" }}
-              >
-                l'heure de retrait.
-              </p>
-            </div>
-          </div>
-          <div>
-            <Image
-              src={resto}
-              className="lg:mr-8 sm:ml-8 ml-2 xl:w-max lg:h-25rem md:w-max mt-4 
-          lg:mt-0 sm:w-30rem sm:h-25rem w-19rem h-18rem"
-              alt="..."
-              style={{ borderRadius: "20px" }}
-            />
-          </div>
-          <div className="sm:ml-8 ml-2 lg:hidden">
-            <p
-              className="text-left sm:text-2xl text-xl lg:hidden"
-              style={{ color: "#0a1639" }}
-            >
+            <p className="text-right text-2xl hidden lg:block">
               {" "}
               Commandez en Click & Collect !
             </p>
-            <p
-              className="text-left sm:text-2xl text-xl lg:hidden"
-              style={{ color: "#0a1639" }}
-            >
+            <p className="text-right text-2xl hidden lg:block">
               Sélectionnez votre repas et choisissez
             </p>
-            <p
-              className="text-left sm:text-2xl text-xl lg:hidden"
-              style={{ color: "#0a1639" }}
-            >
+            <p className="text-right text-2xl hidden lg:block">
+              l'heure de retrait.
+            </p>
+          </div>
+          <Image
+            id="card"
+            src={resto}
+            className="sm:ml-8 ml-2  mt-4 
+          lg:mt-0"
+            alt=""
+          />
+          <div className="sm:ml-8 ml-2">
+            <p className="text-left sm:text-2xl text-xl  lg:hidden">
+              {" "}
+              Commandez en Click & Collect !
+            </p>
+            <p className="text-left sm:text-2xl text-xl lg:hidden">
+              Sélectionnez votre repas et choisissez
+            </p>
+            <p className="text-left sm:text-2xl text-xl lg:hidden">
               l'heure de retrait.
             </p>
           </div>

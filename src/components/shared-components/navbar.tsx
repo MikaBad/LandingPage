@@ -6,66 +6,95 @@ import { Button } from "primereact/button";
 import "primeicons/primeicons.css";
 import { PrimeIcons } from "primereact/api";
 import { Sidebar } from "primereact/sidebar";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
+  const router = useRouter();
   return (
     <div
       id="navbar"
-      className="flex justify-content-between"
+      className="flex justify-content-between align-items-center h-5rem"
       style={{ backgroundColor: "#0A1639" }}
     >
-      <div className=" flex justify-content-between w-9">
+      <div className=" flex justify-content-between w-7">
         <h1>
-          <Link href="/client">
+          <Link href="/">
             <Image
               src={logoWhite}
-              className="w-8rem h-3rem ml-4 hidden lg:block"
+              className="w-11rem h-3rem ml-4 hidden lg:block"
               alt="..."
             />
           </Link>
           <Sidebar
+           id="sidebar"
             visible={visible}
             position="left"
             onHide={() => setVisible(false)}
             className="md"
+            style={{ backgroundColor: "#0a1639" }}
           >
             <div>
               <h2 className="mr-3 lg:block ">
                 <Link
-                  href="/client"
-                  className="no-underline text-blue-900 hover:text-red-700 text-xl"
+                  href="/"
+                  className="no-underline text-white hover:#d71023 text-xl "
                 >
                   Accueil
                 </Link>
-                <p className="border-bottom-2 border-red-700 w-12rem"></p>
+                <p
+                  className="border-bottom-2  w-12rem"
+                  style={{ color: "#d71023" }}
+                ></p>
               </h2>
               <h2 className="mr-3 lg:block">
                 <Link
                   href="/rider"
-                  className="no-underline text-blue-900 hover:text-red-700 text-xl"
+                  className="no-underline text-white hover:#d71023 text-xl"
                 >
                   Devenez livreur
                 </Link>
-                <p className="border-bottom-2 border-red-700 w-12rem"></p>
+                <p
+                  className="border-bottom-2  w-12rem"
+                  style={{ color: "#d71023" }}
+                ></p>
               </h2>
               <h2 className="mr-3 lg:block">
                 <Link
                   href="/restorer"
-                  className="no-underline text-blue-900 hover:text-red-700 text-xl"
+                  className="no-underline text-white hover:#d71023 text-xl"
                 >
                   Rejoignez nos restaurateurs
                 </Link>
-                <p className="border-bottom-2 border-red-700 w-12rem"></p>
+                <p
+                  className="border-bottom-2 w-12rem"
+                  style={{ color: "#d71023" }}
+                ></p>
+              </h2>
+              <h2 className="mr-3 lg:block">
+                <Link
+                  href="/nous"
+                  className="no-underline text-white hover:#d71023 text-xl"
+                >
+                  À propos de Nojyk
+                </Link>
+                <p
+                  className="border-bottom-2 w-12rem"
+                  style={{ color: "#d71023" }}
+                ></p>
               </h2>
               <h2 className="mr-3 lg:block">
                 <Link
                   href="/"
-                  className="no-underline text-blue-900 hover:text-red-700 text-xl"
+                  className="no-underline text-white hover:text-#d71023 text-xl"
+                  style={{}}
                 >
                   Connexion
                 </Link>
-                <p className="border-bottom-2 border-red-700 w-12rem"></p>
+                <p
+                  className="border-bottom-2 w-12rem"
+                  style={{ color: "#d71023" }}
+                ></p>
               </h2>
             </div>
           </Sidebar>
@@ -79,7 +108,7 @@ const Navbar = () => {
             </span>
 
             {/* <span></span> */}
-            <Link href="/client">
+            <Link href="/">
               <Image
                 src={logoWhite}
                 className="sm:w-8rem sm:h-3rem w-5rem h-2rem ml-4 lg:hidden"
@@ -88,16 +117,19 @@ const Navbar = () => {
             </Link>
           </div>
         </h1>
-        <div className="flex justify-content-between no-underline align-items-center">
-          <h2 className="mr-6 hidden lg:block text-xl">
+        <div
+          id="navtitle"
+          className="flex justify-content-between no-underline align-items-center"
+        >
+          <h2 className="mr-6 hidden lg:block lg:text-xl w-5rem">
             <Link
-              href="/client"
-              className="no-underline text-white text- hover:text-red-700"
+              href="/"
+              className="no-underline text-white text- hover:text-red-700 font-normal"
             >
               Accueil
             </Link>
           </h2>
-          <h2 className="mr-6 hidden lg:block text-xl">
+          <h2 className="mr-6 hidden lg:block text-xl font-normal w-10rem">
             <Link
               href="/rider"
               className="no-underline text-white hover:text-red-700"
@@ -105,10 +137,10 @@ const Navbar = () => {
               Devenez livreur
             </Link>
           </h2>
-          <h2 className="mr-6 hidden lg:block text-xl">
+          <h2 className="mr-6 hidden lg:block text-xl w-18rem">
             <Link
               href="/restorer"
-              className="no-underline text-white hover:text-red-700"
+              className="no-underline text-white hover:text-red-700 font-normal"
             >
               Rejoignez nos restaurateurs
             </Link>

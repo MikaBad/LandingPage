@@ -178,6 +178,11 @@ const Caroussel = () => {
     },
     {
       breakpoint: "1800px",
+      numVisible: 4,
+      numScroll: 1,
+    },
+    {
+      breakpoint: "1742px",
       numVisible: 3,
       numScroll: 1,
     },
@@ -188,25 +193,13 @@ const Caroussel = () => {
     },
 
     {
-      breakpoint: "1280px",
-      numVisible: 3,
-      numScroll: 1,
-    },
-
-    {
-      breakpoint: "1230px",
+      breakpoint: "1329px",
       numVisible: 2,
       numScroll: 1,
     },
 
     {
-      breakpoint: "1024px",
-      numVisible: 2,
-      numScroll: 1,
-    },
-
-    {
-      breakpoint: "890px",
+      breakpoint: "843px",
       numVisible: 2,
       numScroll: 1,
     },
@@ -215,9 +208,15 @@ const Caroussel = () => {
       numVisible: 2,
       numScroll: 1,
     },
+
     {
-      breakpoint: "615px",
+      breakpoint: "666px",
       numVisible: 2,
+      numScroll: 1,
+    },
+    {
+      breakpoint: "614px",
+      numVisible: 1,
       numScroll: 1,
     },
 
@@ -283,7 +282,7 @@ const Caroussel = () => {
     //  w-24.5 relative mt-4.5 bg-white"
     // ></div>
     <div className={styles.carouseldemo}>
-      <div className="card -mt-4">
+      <div className="card ">
         <Carousel
           value={listPartenaire}
           numVisible={3.5}
@@ -308,12 +307,22 @@ const Caroussel = () => {
           numVisible={4}
           numScroll={1}
           responsiveOptions={responsiveOptions}
-          className="custom-carousel -mt-5 "
+          className="custom-carousel -mt-5"
           circular
-          autoplayInterval={3500}
+          autoplayInterval={3400}
           itemTemplate={productTemplate}
           header={<h5></h5>}
         />
+      </div>
+      <div
+        id="caroublue"
+        style={{
+          backgroundColor: "#0a1639",
+          height: "200px",
+          marginTop: "10px",
+        }}
+      >
+        {" "}
       </div>
     </div>
   );

@@ -2,18 +2,18 @@ import Image from "next/image";
 import stats from "../../../public/assets/Stats.png";
 import Tel from "../../../public/assets/Tel1.png";
 import logoB from "../../../public/assets/logoBlue.png";
-import badge1 from "../../../public/assets/badge1.png";
-import badge2 from "../../../public/assets/badge2.png";
+import badgeG from "../../../public/assets/badgeGP.svg";
+import badgeA from "../../../public/assets/badgeAS.svg";
 import styles from "../../../styles/cryptoBlue.module.css";
 
 const Crypto = () => {
   return (
     <div>
-      <div className=" mt-8 sm:ml-8 ml-4 absolute">
+      <div id="cryptotxt" className="  sm:ml-8 ml-4 absolute">
         <h1>
           <span
             className="p-2 w-5 text-white 
-            sm:text-4xl md:text-5xl lg:text-6xl text-3xl border-round"
+            sm:text-3xl md:text-4xl lg:text-6xl text-xl border-round"
             style={{ backgroundColor: "#D71023" }}
           >
             Payer un repas en crypto ?
@@ -21,8 +21,8 @@ const Crypto = () => {
         </h1>
         <h1>
           <span
-            className=" p-2 w-5 text-white sm:text-4xl
-               md:text-5xl lg:text-6xl text-3xl border-round -rotate-15"
+            className=" p-2 w-5 text-white sm:text-3xl
+               md:text-4xl lg:text-6xl text-xl border-round -rotate-15"
             style={{ backgroundColor: "#D71023" }}
           >
             Oui c'est possible !
@@ -31,29 +31,43 @@ const Crypto = () => {
       </div>
       <div>
         <Image
-          id="crypto"
+          id="crypto1"
           src={stats}
-          className="w-full -z-1 "
+          className="w-full -z-1"
           alt="..."
-          style={{ objectFit: "cover", objectPosition: "center" }}
+          style={{
+            objectFit: "cover",
+            objectPosition: "center",
+            // backgroundRepeat: "no-repeat ",
+            // backgroundSize: "cover",
+            // backgroundPosition: "bottom",
+          }}
         />
       </div>
       <div
-        className="sm:w-8 w-19rem mx-auto xl:flex justify-content-between
-         text-white border-round p-4 -mt-8 relative border-white h-16rem xl:h-12rem "
-        style={{ backgroundColor: "#0A1639" }}
+        id="recharger1"
+        className=" mx-auto xl:flex justify-content-between
+         text-white p-4 -mt-8 relative border-white h-16rem xl:h-12rem "
+        style={{ backgroundColor: "#0A1639", borderRadius: "16px" }}
       >
-        <p className="xl:text-xl sm:text-base text-base font-bold">
+        <p className="xl:text-xl sm:text-base text-sm font-bold hidden sm:block">
           Rechargez votre carte NOJYK virtuel via nos services <br />
           partenaires, et utiliser vos cryptomonnaie dans la vie <br /> de tous
           les jours.
         </p>
+        <p className="xl:text-xl sm:text-base text-sm font-bold sm:hidden">
+          <p>
+            Rechargez votre carte NOJYK virtuel via nos services partenaires, et
+            utiliser vos cryptomonnaie dans la vie de tous les jours.
+          </p>
+        </p>
         <span
-          className="h-2rem align-items-center flex sm:mr-8 mt-4 
+          id="recharger2"
+          className=" align-items-center flex sm:mr-8 mt-4 xl:text-3xl md:text-xl
            border-round p-5 font-bold text-center sm:justify-content-center"
           style={{ backgroundColor: "#3C7BF9" }}
         >
-          Recharger mon solde en crypto
+          <p className="mx-auto">Recharger mon solde en crypto</p>
         </span>
       </div>
       <div className="sm:flex mt-8 sm:justify-content-center ">
@@ -68,7 +82,7 @@ const Crypto = () => {
           <Image
             src={logoB}
             className="sm:w-8rem sm:h-3rem lg:w-12rem
-           lg:h-4rem w-8rem h-2rem  "
+           lg:h-4rem w-7rem h-2rem  "
             alt="..."
           />
 
@@ -84,9 +98,8 @@ const Crypto = () => {
             <p>
               <a href="/">
                 <Image
-                  src={badge1}
-                  className=" lg:w-12rem lg:h-4rem sm:w-8rem sm:h-3rem w-12rem h-4rem 
-                  border-white border-solid border-round"
+                  src={badgeG}
+                  className=" lg:w-12rem lg:h-4rem sm:w-8rem sm:h-3rem w-12rem h-4rem "
                   alt="..."
                 />
               </a>
@@ -94,9 +107,8 @@ const Crypto = () => {
             <p>
               <a href="/">
                 <Image
-                  src={badge2}
-                  className=" lg:w-12rem lg:h-4rem sm:w-8rem sm:h-3rem w-12rem h-4rem 
-                  border-white border-solid border-round"
+                  src={badgeA}
+                  className=" lg:w-12rem lg:h-4rem sm:w-8rem sm:h-3rem w-12rem h-4rem "
                   alt="..."
                 />
               </a>
@@ -106,7 +118,9 @@ const Crypto = () => {
         <div>
           <Image
             src={Tel}
-            className="md:hidden sm:w-12 sm:h-31rem  w-12 h-28rem"
+            className="md:hidden sm:w-12 sm:h-31rem p-2 w-20rem h-28rem
+             md:ml-0"
+            style={{ objectFit: "cover" }}
             alt="..."
           />
         </div>

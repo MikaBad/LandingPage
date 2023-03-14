@@ -1,9 +1,10 @@
 .diagonal {
   position: relative;
   width: 100%;
-  height: 150px;
+  height: 140px;
   background: #0a1639;
   z-index: -1;
+  margin-top: -50px;
 }
 .diagonal::before {
   position: absolute;
@@ -14,6 +15,7 @@
   transform-origin: top left;
   transform: skewy(4deg);
   z-index: -1;
+  margin-top: 0px;
 }
 
 .content {

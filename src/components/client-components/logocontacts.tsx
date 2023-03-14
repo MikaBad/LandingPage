@@ -8,7 +8,7 @@ import logoL from "../../../public/assets/logoLink.png";
 
 const LogoContacts = () => {
   return (
-    <div>
+    <div style={{ width: "290px" }}>
       <a href="https://www.instagram.com/nojykoff/?hl=fr">
         <Image
           src={logoI}
