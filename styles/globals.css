@@ -98,6 +98,15 @@ body {
   #txtflag {
     margin-top: 30px !important;
   }
+
+  #And2 {
+    margin-left: 150px;
+    white-space: nowrap;
+  }
+
+  #txtFr {
+    margin-left: 200px;
+  }
 }
 
 @media (max-width: 1499px) {
@@ -141,6 +150,15 @@ body {
   #txtflag {
     margin-top: 30px !important;
   }
+
+  #And2 {
+    margin-left: 150px;
+    white-space: nowrap;
+  }
+
+  #txtFr {
+    margin-left: 200px;
+  }
 }
 
 @media (min-width: 1260px) {
@@ -153,6 +171,17 @@ body {
   }
 }
 
+@media (max-width: 1315px) {
+  #And2 {
+    margin-left: 150px;
+    white-space: nowrap;
+  }
+
+  #txtFr {
+    margin-left: 200px;
+  }
+}
+
 @media (max-width: 1265px) {
   #card {
     width: 520px;
@@ -160,6 +189,15 @@ body {
   }
   #txtflag {
     margin-top: 50px !important;
+  }
+
+  #And2 {
+    margin-left: 150px;
+    white-space: nowrap;
+  }
+
+  #txtFr {
+    margin-left: 200px;
   }
 }
 
@@ -170,14 +208,20 @@ body {
   #inputitle {
     margin-top: 78px !important;
   }
-  /* 
-  #inputinfos {
-    width: 520px;
+
+  #And2 {
+    margin-left: 20px;
   }
 
-  #infosbtn {
-    width: 520px;
-  } */
+  #txtFr {
+    margin-left: 230px;
+  }
+}
+
+@media (min-width: 992px) {
+  #colortxt {
+    color: white !important;
+  }
 }
 
 @media (max-width: 790px) {

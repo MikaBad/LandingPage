@@ -40,10 +40,10 @@ const CardVideoRest = () => {
           lg:mt-0  ml-2"
             alt=""
           />
-          <div className={styles.diagonalbox}>
+          {/* <div className={styles.diagonalbox}>
             <div className={styles.contento}></div>
-          </div>
-          <div className=" lg:text-white sm:ml-8 ml-2">
+          </div> */}
+          <div className=" lg: sm:ml-8 ml-2" style={{ color: "#0a1639" }}>
             <h1 className="xl:text-6xl lg:text-4xl hidden lg:block -mt-2">
               Livraison Nojyk
             </h1>
@@ -60,52 +60,69 @@ const CardVideoRest = () => {
               }}
               className="justify-content-center relative hidden lg:block"
             ></span>
-            <p className="sm:text-2xl text-xl text-white">
-              {" "}
-              Entrez votre adresse et faites vous livrer,
-            </p>
-            <p className="sm:text-2xl text-xl  text-white">
-              à domicile, sur votre lieu de travail, ...
-            </p>
-            <p className="sm:text-2xl text-xl text-white">
-              ou vous le souhaitez !
-            </p>
+            <div style={{ color: "#0a1639" }}>
+              <p className="sm:text-2xl text-xl">
+                {" "}
+                Entrez votre adresse et faites vous livrer,
+              </p>
+              <p className="sm:text-2xl text-xl ">
+                à domicile, sur votre lieu de travail, ...
+              </p>
+              <p className="sm:text-2xl text-xl">ou vous le souhaitez !</p>
+            </div>
           </div>
         </div>
-        <div className="lg:flex justify-content-end mt-8 ">
-          <div>
-            <div className=" hidden lg:block">
-              <h1 className="text-center mt-8">
+        <div className="lg:flex justify-content-end mt-8  ">
+          <div id="AlltxtFr" style={{ marginTop: "100px" }}>
+            <div
+              id="txtFr"
+              className=" hidden lg:block w-12 relative"
+              // style={{ marginLeft: "90px" }}
+            >
+              <h1  className="text-center mt-8 ml-8 ">
                 <span
-                  className="p-2 w-5 text-white 
+                  className="p-2 w-5
             sm:text-3xl md:4xl lg:text-3xl 
             xl:text-5xl text-xl border-round"
-                  style={{ backgroundColor: "#3C7BF9" }}
+                  style={{
+                    backgroundColor: "white",
+                    color: "#3C7BF9",
+                    // marginLeft: "200px",
+                  }}
                 >
                   Faites le choix d'une app
                 </span>
               </h1>
               <h1 className="text-center -mt-4 sm:-mt-3 md:-mt-3 mr-8">
                 <span
-                  className=" p-2 w-5 text-white 
+                  className=" p-2 w-5 
                   sm:text-3xl md:4xl lg:text-3xl xl:text-5xl text-xl border-round"
-                  style={{ backgroundColor: "#3C7BF9" }}
+                  style={{
+                    backgroundColor: "white",
+                    color: "#3C7BF9",
+                    // marginLeft: "150px",
+                  }}
                 >
                   100% made in France,
                 </span>
               </h1>
-              <h1 className="text-center sm:-mt-3 ml-7 lg:ml-0 -mt-4">
+              <h1
+                id="And2"
+                className="text-center sm:-mt-3 -mt-4  "
+                // style={{ marginLeft: "200px" }}
+              >
                 <Image
                   src={And}
                   alt=""
-                  className="sm:w-3rem sm:h-4rem ml-3 sm:-my-4 w-2rem h-2rem -my-2"
+                  className="sm:w-3rem sm:h-4rem ml-3 md:h-3rem 
+                  sm:-my-4 md:-my-3 w-2rem h-2rem -my-2"
                 ></Image>
                 <span
                   className="p-2 w-5 text-white 
                   sm:text-3xl md:4xl lg:text-3xl xl:text-5xl text-xl border-round"
                   style={{ backgroundColor: "#3C7BF9" }}
                 >
-                  développé à Marseille
+                  développé à Marseille !
                 </span>
               </h1>
             </div>
@@ -120,21 +137,21 @@ const CardVideoRest = () => {
             />
           </div>
 
-          <div className="sm:ml-8 ml-2 lg:hidden">
+          <div className="sm:ml-8 ml-2 lg:hidden ">
             <h1 className="text-center mt-8">
               <span
-                className="p-2 w-5 text-white 
-            sm:text-4xl md:text-5xl lg:text-6xl text-xl border-round"
-                style={{ backgroundColor: "#3C7BF9" }}
+                className="p-2 w-5
+            sm:text-4xl  lg:text-6xl text-xl border-round"
+                style={{ backgroundColor: "white", color: "#3C7BF9" }}
               >
                 Faites le choix d'une app
               </span>
             </h1>
             <h1 className="text-center -mt-4 sm:-mt-3 md:-mt-3 mr-8">
               <span
-                className=" p-2 w-5 text-white 
-            sm:text-4xl md:text-5xl lg:text-6xl text-xl border-round"
-                style={{ backgroundColor: "#3C7BF9" }}
+                className=" p-2 w-5
+            sm:text-4xl  lg:text-6xl text-xl border-round"
+                style={{ backgroundColor: "white", color: "#3C7BF9" }}
               >
                 100% made in France,
               </span>
@@ -143,22 +160,26 @@ const CardVideoRest = () => {
               <Image
                 src={And}
                 alt=""
-                className="sm:w-3rem sm:h-4rem ml-3 sm:-my-4 w-2rem h-2rem -my-2"
+                className="sm:w-3rem sm:h-3rem lg:h-4rem ml-3
+                 sm:-my-3 md:-my-3 lg:-my-4 w-2rem h-2rem -my-2"
               ></Image>
               <span
                 className="p-2 w-5 text-white 
-            sm:text-4xl md:text-5xl lg:text-6xl text-xl border-round"
+            sm:text-4xl  lg:text-6xl text-xl border-round"
                 style={{ backgroundColor: "#3C7BF9" }}
               >
                 développé à Marseille
               </span>
             </h1>
           </div>
+          <div className={styles.diagonalbox}>
+            <div className={styles.contento}></div>
+          </div>
         </div>
 
         <div className="lg:flex mt-8">
           <h1
-            className="
+            className=" text-white
            lg:hidden text-2xl ml-6 sm:ml-8"
             style={{ color: "#0a1639" }}
           >
@@ -177,6 +198,7 @@ const CardVideoRest = () => {
             }}
             className="justify-content-center relative lg:hidden sm:ml-8"
           ></span>
+
           <Image
             id="card"
             src={PLiv2}
@@ -184,9 +206,7 @@ const CardVideoRest = () => {
           lg:mt-0 ml-2"
             alt=""
           />
-          <div className={styles.diagonalbox}>
-            <div className={styles.contento}></div>
-          </div>
+
           <div className=" lg:text-white sm:ml-8 ml-2">
             <h1 className="xl:text-6xl lg:text-4xl text-2xl hidden lg:block -mt-2">
               Respect des restaurateurs
@@ -204,16 +224,16 @@ const CardVideoRest = () => {
               }}
               className="justify-content-center relative hidden lg:block"
             ></span>
-            <p className="sm:text-2xl text-xl text-white">
-              {" "}
-              Entrez votre adresse et faites vous livrer,
-            </p>
-            <p className="sm:text-2xl text-xl  text-white">
-              à domicile, sur votre lieu de travail, ...
-            </p>
-            <p className="sm:text-2xl text-xl text-white">
-              ou vous le souhaitez !
-            </p>
+            <div id="colortxt" style={{ color: "#0a1639" }}>
+              <p className="sm:text-2xl text-lg ">
+                {" "}
+                Entrez votre adresse et faites vous livrer,
+              </p>
+              <p className="sm:text-2xl text-lg">
+                à domicile, sur votre lieu de travail, ...
+              </p>
+              <p className="sm:text-2xl text-lg">ou vous le souhaitez !</p>
+            </div>
           </div>
         </div>
         <div className="lg:flex justify-content-end mt-8">
@@ -256,15 +276,15 @@ const CardVideoRest = () => {
           lg:mt-0"
             alt=""
           />
-          <div className="sm:ml-8 ml-2">
-            <p className="text-left sm:text-2xl text-xl  lg:hidden">
+          <div className="sm:ml-8 ml-2" style={{ color: "#0a1639" }}>
+            <p className="text-left sm:text-2xl text-lg  lg:hidden">
               {" "}
               Commandez en Click & Collect !
             </p>
-            <p className="text-left sm:text-2xl text-xl lg:hidden">
+            <p className="text-left sm:text-2xl text-lg lg:hidden">
               Sélectionnez votre repas et choisissez
             </p>
-            <p className="text-left sm:text-2xl text-xl lg:hidden">
+            <p className="text-left sm:text-2xl text-lg lg:hidden">
               l'heure de retrait.
             </p>
           </div>
