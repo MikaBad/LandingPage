@@ -33,7 +33,7 @@ const Crypto = () => {
         <Image
           id="crypto1"
           src={stats}
-          className="w-full -z-1"
+          className="w-full -z-2 relative "
           alt="..."
           style={{
             objectFit: "cover",

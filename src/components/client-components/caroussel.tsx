@@ -282,7 +282,7 @@ const Caroussel = () => {
     //  w-24.5 relative mt-4.5 bg-white"
     // ></div>
     <div className={styles.carouseldemo}>
-      <div className="card ">
+      <div className="card" id="containercarou">
         <Carousel
           value={listPartenaire}
           numVisible={3.5}
@@ -320,7 +320,10 @@ const Caroussel = () => {
           backgroundColor: "#0a1639",
           height: "200px",
           marginTop: "10px",
+          zIndex:"-1",
+          
         }}
+       
       >
         {" "}
       </div>

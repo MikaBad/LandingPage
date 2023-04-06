@@ -21,10 +21,14 @@ const Cardwelcome = () => {
   return (
     <div className="align-content-around z-1" style={{ marginTop: "-300px" }}>
       <div className="lg:flex">
-        <h1 className="xl:text-6xl lg:text-5xl text-white lg:hidden ml-8">
+        <h1
+          id="titleLiv"
+          className="xl:text-6xl lg:text-5xl text-white lg:hidden ml-8"
+        >
           Livraison
         </h1>
         <span
+          id="underblue1"
           style={{
             width: "110px",
             backgroundColor: "#3C7BF9",
@@ -44,7 +48,7 @@ const Cardwelcome = () => {
           alt=""
         />
         {/* lg:h-30rem md:w-max sm:w-30rem sm:h-25rem w-19rem h-18rem */}
-        <div className=" lg:text-white sm:ml-8 ml-2">
+        <div id="txtLiv" className=" lg:text-white sm:ml-8 ml-2">
           <h1 className="xl:text-6xl lg:text-5xl hidden lg:block -mt-2">
             Livraison
           </h1>
@@ -71,24 +75,19 @@ const Cardwelcome = () => {
           <p className="sm:text-2xl text-xl">ou vous le souhaitez !</p>
         </div>
       </div>
-      <div className="lg:flex justify-content-end mt-8">
+      <div
+        id="containerCli"
+        className="lg:flex justify-content-end "
+        style={{ marginTop: "125px" }}
+      >
         <div style={{ color: "#0a1639" }}>
-          <h1 className="lg:text-right xl:text-6xl lg:text-5xl ml-8 lg:ml-0 -mt-2 ">
+          <h1
+            id="titleCli"
+            className="lg:text-right xl:text-6xl lg:text-5xl ml-8 lg:ml-0 -mt-2 "
+          >
             Click & Collect
           </h1>
-          <span
-            id="bluelineR2"
-            style={{
-              // width: "200px",
-              backgroundColor: "#3C7BF9",
-              height: "8px",
-              borderRadius: "20px",
-              // margin: "auto",
-              display: "flex",
-              marginTop: "-15px",
-            }}
-            className="justify-content-center"
-          ></span>
+
           <span
             id="bluelineR"
             style={{
