@@ -33,11 +33,12 @@ const Crypto = () => {
         <Image
           id="crypto1"
           src={stats}
-          className="w-full -z-2 relative "
+          className="w-full relative "
           alt="..."
           style={{
             objectFit: "cover",
             objectPosition: "center",
+            zIndex: "-2",
             // backgroundRepeat: "no-repeat ",
             // backgroundSize: "cover",
             // backgroundPosition: "bottom",

@@ -22,12 +22,12 @@ const Navbar = () => {
           <Link href="/">
             <Image
               src={logoWhite}
-              className="w-11rem h-3rem ml-4 hidden lg:block"
+              className="w-10rem h-3rem ml-4 hidden lg:block"
               alt="..."
             />
           </Link>
           <Sidebar
-           id="sidebar"
+            id="sidebar"
             visible={visible}
             position="left"
             onHide={() => setVisible(false)}
@@ -121,18 +121,18 @@ const Navbar = () => {
           id="navtitle"
           className="flex justify-content-between no-underline align-items-center"
         >
-          <h2 className="mr-6 hidden lg:block lg:text-xl w-5rem">
+          <h2 className="mr-6 hidden lg:block lg:text-xl w-5rem ">
             <Link
               href="/"
-              className="no-underline text-white text- hover:text-red-700 font-normal"
+              className="no-underline text-white text- hover:text-red-700 font-normal xl:font-bold"
             >
               Accueil
             </Link>
           </h2>
-          <h2 className="mr-6 hidden lg:block text-xl font-normal w-10rem">
+          <h2 className="mr-6 hidden lg:block text-xl  w-10rem">
             <Link
               href="/rider"
-              className="no-underline text-white hover:text-red-700"
+              className="no-underline text-white hover:text-red-700 font-normal xl:font-bold"
             >
               Devenez livreur
             </Link>
@@ -140,7 +140,7 @@ const Navbar = () => {
           <h2 className="mr-6 hidden lg:block text-xl w-18rem">
             <Link
               href="/restorer"
-              className="no-underline text-white hover:text-red-700 font-normal"
+              className="no-underline text-white hover:text-red-700 font-normal xl:font-bold "
             >
               Rejoignez nos restaurateurs
             </Link>
@@ -154,7 +154,7 @@ const Navbar = () => {
           type="button"
           label="Connexion"
           icon="pi pi-users"
-          className=" hover:text-red-700 md:text-lg sm:text-base text-xs "
+          className=" hover:text-red-700 md:text-lg xl:text-xl sm:text-base text-xs "
           style={{ background: "rgba(248, 249, 250, 0.1)" }}
           badge=""
           badgeClassName="p-badge-danger"

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "primereact/button";
 import PhC from "../../../public/assets/PhClient.png";
+import Link from "next/link";
 
 const HeaderRest = () => {
   return (
@@ -37,12 +38,14 @@ const HeaderRest = () => {
         />
       </div>
       <div className="flex justify-content-end -mt-8 mr-8">
+        {/* <Link href="/restorer"></Link> */}
         <Button
           id="button"
+          label="Je m'inscris"
           className="sm:text-4xl text-white  border-round 
             md:w-5 justify-content-center"
         >
-          Je m'inscris
+          {/* Je m'inscris */}
         </Button>
       </div>
     </div>

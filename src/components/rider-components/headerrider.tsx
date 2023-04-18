@@ -1,6 +1,7 @@
 import Image from "next/image";
 import PhL from "../../../public/assets/PhL.png";
 import styles from "../../../styles/headerRd.module.css";
+import { Button } from "primereact/button";
 
 const HeaderRider = () => {
   return (
@@ -39,13 +40,15 @@ const HeaderRider = () => {
       </div>
       <div className={styles.diagonal}>
         <div className={styles.content}>
-          <span
+          <Button
+            id="btndevenir"
+            label="Devenir rider"
             className="flex sm:text-4xl text-white p-4 border-round 
             md:w-5 justify-content-center"
-            style={{ backgroundColor: "#3C7BF9", marginTop: "200px" }}
+            style={{ backgroundColor: "#3C7BF9" }}
           >
-            Devenir rider
-          </span>
+            {/* Devenir rider */}
+          </Button>
           {/* <p className="align-item-center justify-content-center m-auto text-lg"> Votre nouveau service pour consommer les repas de votre choix </p> */}
         </div>
       </div>

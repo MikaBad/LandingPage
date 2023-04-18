@@ -8,13 +8,14 @@ const Welcome = () => {
   return (
     <div className={styles.diagonal}>
       <div className={styles.content}>
-        <p className="flex align-items-center sm:text-4xl ">
+        <p className="flex align-items-center sm:text-4xl xl:text-6xl ">
           Bienvenue chez{" "}
           <span className="sm:mt-2 ml-3 ">
             {" "}
             <Image
               src={logoWhite}
-              className="sm:w-8rem sm:h-3rem w-8rem h-2rem  "
+              className="sm:w-8rem sm:h-3rem w-8rem h-2rem 
+              xl:w-10rem xl:h-3rem xl:mt-3"
               alt="..."
             />
           </span>
@@ -22,7 +23,7 @@ const Welcome = () => {
         {/* <p className="align-item-center justify-content-center m-auto text-lg"> Votre nouveau service pour consommer les repas de votre choix </p> */}
       </div>
       <div className={styles.content1}>
-        <p className="sm:text-xl mt-5  text-center">
+        <p className="sm:text-xl xl:text-3xl mt-5  text-center">
           {" "}
           Votre nouveau service pour consommer les repas de votre choix{" "}
         </p>

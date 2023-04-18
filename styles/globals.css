@@ -40,6 +40,27 @@ body {
     margin-left: 200px !important;
   }
 }
+@media (min-width: 1800px) {
+  .bluerider {
+    padding-bottom: 90px;
+  }
+  #inputinfos {
+    width: 1100px !important;
+  }
+  #infosbtn {
+    width: 1100px !important;
+  }
+  #inputitle {
+    margin-top: 50px !important ;
+  }
+  #liv1 {
+    width: 200px !important;
+  }
+
+  #txtchx1 {
+    font-size: 50px !important;
+  }
+}
 
 @media (min-width: 1500px) {
   #card {
@@ -92,9 +113,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    transform: skew(0deg, 4deg);
-    top: 0px;
+    transform: skew(0deg, 5deg);
+    top: -110px;
     left: 0px;
+    z-index: -2;
+    position: relative;
+    margin-top: -30px !important ;
   }
 
   #inputinfos {
@@ -116,9 +140,28 @@ body {
   #txtFr {
     margin-left: 200px;
   }
+
+  #inputclient {
+    margin-top: -170px;
+    border-color: #3c7bf9;
+  }
+
+  #cardclient {
+    margin-top: -400px !important ;
+  }
+  #btndevenir {
+    z-index: 1;
+    margin-top: 0px !important;
+  }
+  #cardliv1 {
+    margin-top: 150px;
+  }
 }
 
 @media (max-width: 1499px) {
+  .bluerider {
+    padding-bottom: 40px !important;
+  }
   #bluelineR2 {
     position: relative;
     margin-left: auto;
@@ -144,10 +187,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    transform: skew(0deg, 10deg);
-    top: 0px;
+    transform: skew(0deg, 5deg);
+    top: -110px;
     left: 0px;
-    z-index: -1;
+    z-index: -2;
     position: relative;
     margin-top: -30px !important ;
   }
@@ -171,8 +214,24 @@ body {
   #txtFr {
     margin-left: 200px;
   }
+  #inputclient {
+    margin-top: -170px;
+    border-color: #3c7bf9;
+  }
+
+  #inputitle {
+    margin-top: 100px !important ;
+  }
+  #cardliv1 {
+    margin-top: 150px;
+  }
 }
 
+@media (min-width: 1381px) {
+  #inputitle {
+    margin-top: 95px;
+  }
+}
 @media (min-width: 1260px) {
   #containercarou {
     margin-top: -250px !important;
@@ -180,6 +239,11 @@ body {
 
   #txtflag {
     margin-top: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .bluerider {
+    padding-bottom: px !important ;
   }
 }
 
@@ -243,6 +307,9 @@ body {
   #containercarou {
     margin-top: -35px !important;
   }
+  #remutitle575 {
+    margin-top: 110px;
+  }
 }
 
 @media (max-width: 790px) {
@@ -252,6 +319,9 @@ body {
   }
   #txtflag {
     margin-top: 60px !important;
+  }
+  #remutitle575 {
+    margin-top: 110px;
   }
 }
 
@@ -266,6 +336,9 @@ body {
   #flag1 {
     width: 260px;
     height: 460px;
+  }
+  #remutitle575 {
+    margin-top: 110px;
   }
 }
 
@@ -302,7 +375,7 @@ body {
   }
 
   #remutitle575 {
-    margin-top: 110px;
+    margin-top: 150px;
   }
 
   #bluelineCL {
@@ -310,7 +383,7 @@ body {
   }
 
   #bluelineR {
-    margin-left: 10px !important;
+    margin-left: 45px !important;
   }
 
   #titleLiv {
@@ -529,13 +602,13 @@ body {
 @media (max-width: 2580px) {
   .bluerider {
     border-bottom: solid;
-    padding-bottom: 173px;
+    /* padding-bottom: 173px; */
   }
 }
 @media (max-width: 1600px) {
   .bluerider {
     border-bottom: solid;
-    padding-bottom: 163px;
+    padding-bottom: 85px;
   }
 
   #navtitle {
@@ -551,14 +624,14 @@ body {
   }
 
   #inputitle {
-    margin-top: 55px !important ;
+    margin-top: 55px;
   }
 }
 
 @media (max-width: 1200px) {
   .bluerider {
     border-bottom: solid;
-    padding-bottom: 40px;
+    padding-bottom: 45px !important;
   }
   #inputinfos {
     width: 650px;
@@ -570,9 +643,11 @@ body {
   }
 
   #inputitle {
-    margin-top: 180px !important;
+    margin-top: 175px !important;
   }
-
+  #cardliv1 {
+    margin-top: 100px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -608,28 +683,49 @@ body {
   }
   #caroublue {
     width: 100%;
-    height: 420px !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    transform: skew(0deg, 20deg) !important;
-    top: 0px;
+    transform: skew(0deg, 5deg);
+    top: -110px;
     left: 0px;
-    margin-top: -255px !important;
+    z-index: -2;
+    position: relative;
+    margin-top: -30px !important ;
+  }
+  .bluerider {
+    border-bottom: solid;
+    padding-bottom: 45px !important;
+  }
+
+  #cardliv1 {
+    margin-top: 600px;
+  }
+  #cardliv2 {
+    margin-top: 700px;
+  }
+
+  #restcard {
+    margin-top: 600px;
   }
 }
 
 @media (max-width: 767px) {
   #caroublue {
     width: 100%;
-    height: 370px !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    transform: skew(0deg, 25deg) !important;
-    top: 0px;
+    transform: skew(0deg, 5deg);
+    top: -110px;
     left: 0px;
-    margin-top: -170px !important;
+    z-index: -2;
+    position: relative;
+    margin-top: -30px !important ;
+  }
+  .bluerider {
+    border-bottom: solid;
+    padding-bottom: 90px !important;
   }
 }
 
@@ -645,18 +741,23 @@ body {
   #infosbtn {
     width: 520px;
   }
+  .bluerider {
+    border-bottom: solid;
+    padding-bottom: 90px !important;
+  }
 }
 @media (max-width: 575px) {
   #caroublue {
     width: 100%;
-    height: 180px !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    transform: skew(0deg, 15deg) !important;
-    top: 0px;
+    transform: skew(0deg, 5deg);
+    top: -110px;
     left: 0px;
-    margin-top: -130px !important;
+    z-index: -2;
+    position: relative;
+    margin-top: -30px !important ;
   }
 }
 
@@ -674,14 +775,15 @@ body {
   }
   #caroublue {
     width: 100%;
-    height: 180px !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    transform: skew(0deg, 20deg) !important;
-    top: 0px;
+    transform: skew(0deg, 5deg);
+    top: -110px;
     left: 0px;
-    margin-top: -100px !important;
+    z-index: -2;
+    position: relative;
+    margin-top: -30px !important ;
   }
 }
 @media (max-width: 474px) {
@@ -735,14 +837,15 @@ body {
   }
   #caroublue {
     width: 100%;
-    height: 180px !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    transform: skew(0deg, 20deg) !important;
-    top: 0px;
+    transform: skew(0deg, 5deg);
+    top: -110px;
     left: 0px;
-    margin-top: -100px !important;
+    z-index: -2;
+    position: relative;
+    margin-top: -30px !important ;
   }
 }
 
@@ -813,6 +916,10 @@ body {
     top: 0px;
     left: 0px;
     margin-top: -120px !important;
+  }
+  .bluerider {
+    border-bottom: solid;
+    padding-bottom: 60px !important;
   }
 }
 @media (max-width: 350px) {
@@ -892,7 +999,17 @@ body {
 @media (max-width: 320px) {
   .bluerider {
     border-bottom: solid;
-    padding-bottom: 60px;
+    padding-bottom: 60px !important;
+  }
+}
+@media (min-width: 320px) {
+  #btndevenir {
+    z-index: 1;
+  }
+  #rotate6 {
+    transform: rotate(-1.89deg);
+    margin-top: -20px;
+    margin-left: 40px;
   }
 }
 

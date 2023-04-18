@@ -10,7 +10,7 @@ const CardVideoRest = () => {
   return (
     <div>
       <div className="align-content-around z-1">
-        <div className="lg:flex mt-8">
+        <div className="lg:flex" id="restcard">
           <h1
             id="titleRest"
             className="xl:text-6xl lg:text-5xl 
@@ -79,8 +79,9 @@ const CardVideoRest = () => {
               className=" hidden lg:block w-12 relative"
               // style={{ marginLeft: "90px" }}
             >
-              <h1  className="text-center mt-8 ml-8 ">
+              <h1 className="text-center mt-8 ml-8 ">
                 <span
+                  id="txtchx1"
                   className="p-2 w-5
             sm:text-3xl md:4xl lg:text-3xl 
             xl:text-5xl text-xl border-round"
@@ -88,6 +89,7 @@ const CardVideoRest = () => {
                     backgroundColor: "white",
                     color: "#3C7BF9",
                     // marginLeft: "200px",
+                    textShadow: "3px 2px #D3D3D3	",
                   }}
                 >
                   Faites le choix d'une app
@@ -95,12 +97,14 @@ const CardVideoRest = () => {
               </h1>
               <h1 className="text-center -mt-4 sm:-mt-3 md:-mt-3 mr-8">
                 <span
+                  id="txtchx1"
                   className=" p-2 w-5 
                   sm:text-3xl md:4xl lg:text-3xl xl:text-5xl text-xl border-round"
                   style={{
                     backgroundColor: "white",
                     color: "#3C7BF9",
                     // marginLeft: "150px",
+                    textShadow: "3px 2px #D3D3D3	",
                   }}
                 >
                   100% made in France,
@@ -112,15 +116,20 @@ const CardVideoRest = () => {
                 // style={{ marginLeft: "200px" }}
               >
                 <Image
+                  id="txtchx1"
                   src={And}
                   alt=""
                   className="sm:w-3rem sm:h-4rem ml-3 md:h-3rem 
                   sm:-my-4 md:-my-3 w-2rem h-2rem -my-2"
                 ></Image>
                 <span
+                  id="txtchx1"
                   className="p-2 w-5 text-white 
                   sm:text-3xl md:4xl lg:text-3xl xl:text-5xl text-xl border-round"
-                  style={{ backgroundColor: "#3C7BF9" }}
+                  style={{
+                    backgroundColor: "#3C7BF9",
+                    textShadow: "2px 2px #778899",
+                  }}
                 >
                   développé à Marseille !
                 </span>
@@ -141,8 +150,12 @@ const CardVideoRest = () => {
             <h1 className="text-center mt-8">
               <span
                 className="p-2 w-5
-            sm:text-4xl  lg:text-6xl text-xl border-round"
-                style={{ backgroundColor: "white", color: "#3C7BF9" }}
+            sm:text-4xl  lg:text-6xl text-xl border-round text-sha"
+                style={{
+                  backgroundColor: "white",
+                  color: "#3C7BF9",
+                  textShadow: "3px 2px #D3D3D3	",
+                }}
               >
                 Faites le choix d'une app
               </span>
@@ -151,7 +164,11 @@ const CardVideoRest = () => {
               <span
                 className=" p-2 w-5
             sm:text-4xl  lg:text-6xl text-xl border-round"
-                style={{ backgroundColor: "white", color: "#3C7BF9" }}
+                style={{
+                  backgroundColor: "white",
+                  color: "#3C7BF9",
+                  textShadow: "3px 2px #D3D3D3	",
+                }}
               >
                 100% made in France,
               </span>
@@ -166,7 +183,10 @@ const CardVideoRest = () => {
               <span
                 className="p-2 w-5 text-white 
             sm:text-4xl  lg:text-6xl text-xl border-round"
-                style={{ backgroundColor: "#3C7BF9" }}
+                style={{
+                  backgroundColor: "#3C7BF9",
+                  textShadow: "2px 2px #778899",
+                }}
               >
                 développé à Marseille
               </span>

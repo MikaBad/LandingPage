@@ -34,8 +34,9 @@ const CardLiv = () => {
     <div>
       <div className="align-content-around z-1">
         <div
+          id="cardliv1"
           className="lg:flex justify-content-end"
-          style={{ marginTop: "200px" }}
+          // style={{ marginTop: "200px" }}
         >
           <div className="sm:mr-8 mr-2">
             <h1
@@ -60,42 +61,46 @@ const CardLiv = () => {
             ></span>
 
             <p
-              className="text-right text-2xl hidden lg:block"
+              className="text-right text-2xl hidden lg:block line-height-1"
               style={{ color: "#0a1639" }}
             >
               {" "}
               Commandez en Click & Collect !
             </p>
             <p
-              className="text-right text-2xl hidden lg:block"
+              className="text-right text-2xl hidden lg:block line-height-1"
               style={{ color: "#0a1639" }}
             >
               Sélectionnez votre repas et choisissez
             </p>
             <p
-              className="text-right text-2xl hidden lg:block"
+              className="text-right text-2xl hidden lg:block line-height-1"
               style={{ color: "#0a1639" }}
             >
               l'heure de retrait.
             </p>
           </div>
           <Image
+            id="liv1"
             src={liv1}
             className="mt-6 lg:w-1 w-2 lg:h-0rem xl:h-30rem 
             md:h-25rem h-15rem ml-6 lg:ml-0"
             alt=""
           />
           <Image
+            id="liv1"
             src={liv2}
             className="lg:w-1 w-2 lg:h-0rem xl:h-30rem md:h-25rem h-15rem"
             alt=""
           />
           <Image
+            id="liv1"
             src={liv3}
             className="mt-6 lg:w-1 w-2 lg:h-0rem xl:h-30rem md:h-25rem h-15rem"
             alt=""
           />
           <Image
+            id="liv1"
             src={liv4}
             className=" lg:w-1 w-2 lg:h-0rem xl:h-30rem md:h-25rem h-15rem"
             alt=""
@@ -126,7 +131,7 @@ const CardLiv = () => {
           className="align-content-around z-1"
           style={{ marginTop: "150px" }}
         >
-          <div className="lg:flex">
+          <div className="lg:flex" id="cardliv2">
             <h1
               className="xl:text-6xl lg:text-5xl 
             text-white lg:hidden text-2xl ml-6 sm:ml-8"
@@ -173,22 +178,19 @@ const CardLiv = () => {
                 }}
                 className="justify-content-center relative hidden lg:block"
               ></span>
-              <p className="sm:text-2xl text-xl text-white">
+              <p className="sm:text-2xl text-xl text-white line-height-1">
                 {" "}
                 Entrez votre adresse et faites vous livrer,
               </p>
-              <p className="sm:text-2xl text-xl  text-white">
+              <p className="sm:text-2xl text-xl  text-white line-height-1">
                 à domicile, sur votre lieu de travail, ...
               </p>
-              <p className="sm:text-2xl text-xl text-white">
+              <p className="sm:text-2xl text-xl text-white line-height-1">
                 ou vous le souhaitez !
               </p>
             </div>
           </div>
-          <div
-            id="remutitle575"
-            className="lg:flex justify-content-end sm:mt-8  "
-          >
+          <div id="remutitle575" className="lg:flex justify-content-end  ">
             <div style={{ color: "#0a1639" }} className="hidden lg:block ">
               <h1
                 id="remutxt"
@@ -212,20 +214,20 @@ const CardLiv = () => {
               ></span>
 
               <p
-                className="text-right text-2xl hidden lg:block"
+                className="text-right text-2xl hidden lg:block line-height-1"
                 style={{ color: "#0a1639" }}
               >
                 {" "}
                 Commandez en Click & Collect !
               </p>
               <p
-                className="text-right text-2xl hidden lg:block"
+                className="text-right text-2xl hidden lg:block line-height-1"
                 style={{ color: "#0a1639" }}
               >
                 Sélectionnez votre repas et choisissez
               </p>
               <p
-                className="text-right text-2xl hidden lg:block"
+                className="text-right text-2xl hidden lg:block line-height-1"
                 style={{ color: "#0a1639" }}
               >
                 l'heure de retrait.
@@ -233,7 +235,7 @@ const CardLiv = () => {
               <Button
                 id="btndevenir"
                 className="flex sm:text-4xl text-white px-6 border-round 
-              mt-8 text-center"
+              mt-8 text-center xl:ml-8"
                 style={{ backgroundColor: "#3C7BF9" }}
               >
                 Devenir rider
@@ -362,7 +364,7 @@ const CardLiv = () => {
                 </span>
               </div>
             </div>
-            <div id="inputitle" className="xl:mt-6">
+            <div id="inputitle" className="">
               <h5 className="text-white md:text-lg text-base">Votre message</h5>
               <InputTextarea
                 id="inputinfos"
@@ -371,7 +373,7 @@ const CardLiv = () => {
                 rows={5}
                 cols={30}
                 autoResize
-                className="lg:h-20rem h-10rem "
+                className="lg:h-20rem h-10rem xl:mb-8 "
                 placeholder="Rédiger votre texte ici ..."
               />
 
@@ -383,7 +385,7 @@ const CardLiv = () => {
                 className={`p-button-primary border-primary
                  
                  border-round-left sm:border-round-left 
-                  flex sm:flex-none absolute lg:static sm:mt-0 sm:block `}
+                  flex sm:flex-none absolute lg:static sm:mt-0 sm:block  `}
                 value="Valider"
               />
             </div>

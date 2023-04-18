@@ -19,7 +19,11 @@ const Cardwelcome = () => {
   //     </span>
   // );
   return (
-    <div className="align-content-around z-1" style={{ marginTop: "-300px" }}>
+    <div
+      className="align-content-around z-1"
+      style={{ marginTop: "-300px" }}
+      id="cardclient"
+    >
       <div className="lg:flex">
         <h1
           id="titleLiv"
@@ -65,14 +69,16 @@ const Cardwelcome = () => {
             }}
             className="justify-content-center relative hidden lg:block"
           ></span>
-          <p className="sm:text-2xl text-xl">
+          <p className="sm:text-2xl text-xl line-height-1">
             {" "}
             Entrez votre adresse et faites vous livrer,
           </p>
-          <p className="sm:text-2xl text-xl">
+          <p className="sm:text-2xl text-xl line-height-1">
             à domicile, sur votre lieu de travail, ...
           </p>
-          <p className="sm:text-2xl text-xl">ou vous le souhaitez !</p>
+          <p className="sm:text-2xl text-xl line-height-1">
+            ou vous le souhaitez !
+          </p>
         </div>
       </div>
       <div
@@ -101,14 +107,14 @@ const Cardwelcome = () => {
             }}
             className="justify-content-center"
           ></span>
-          <p className="text-right text-2xl hidden lg:block">
+          <p className="text-right text-2xl hidden lg:block line-height-1">
             {" "}
             Commandez en Click & Collect !
           </p>
-          <p className="text-right text-2xl hidden lg:block">
+          <p className="text-right text-2xl hidden lg:block line-height-1">
             Sélectionnez votre repas et choisissez
           </p>
-          <p className="text-right text-2xl hidden lg:block">
+          <p className="text-right text-2xl hidden lg:block line-height-1">
             l'heure de retrait.
           </p>
         </div>

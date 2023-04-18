@@ -8,8 +8,8 @@ import rest5 from "../../../public/assets/restau5.png";
 const PresentationRest = () => {
   return (
     <div>
-      <div className="mt-8 sm:ml-8 ml-5">
-        <h1 style={{ color: "#0A1639" }}>Ils nous font déjà confiance</h1>
+      <div className="mt-8 sm:ml-8 ml-5 xl:text-xl">
+        <h1 style={{ color: "#0A1639" }}>Ils nous font déjà confiance :</h1>
       </div>
       <div className="hidden xl:block">
         <div className="flex justify-content-between p-7 ">

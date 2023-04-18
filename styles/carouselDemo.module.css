@@ -47,7 +47,7 @@
 .carouseldemo {
   margin-top: 1200px;
   background-color: #0a1639;
-  height: 900px;
+  height: 800px;
   z-index: -2;
 }
 
@@ -322,6 +322,14 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .carouseldemo {
+    margin-top: 1000px;
+    background-color: #0a1639;
+    height: 800px;
+    z-index: -2;
+  }
+}
 @media (max-width: 991px) {
   .carouseldemo {
     margin-top: 1150px;
@@ -695,7 +703,7 @@
   }
 
   .carouseldemo {
-    margin-top: 1200px;
+    margin-top: 995px;
     background-color: #0a1639;
   }
 }

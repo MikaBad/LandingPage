@@ -44,7 +44,7 @@ const HeaderClient = () => {
       <div>
         <Image
           src={PH}
-          className="w-full"
+          className="w-full h-full"
           alt="..."
           style={{ objectFit: "cover", objectPosition: "center" }}
         />
@@ -54,10 +54,11 @@ const HeaderClient = () => {
             onSubmit={changeSubmit}
             className="-mt-8 sm:ml-8 sm:mr-8 "
           >
-            <div className="col-12 md:col-0  ">
-              <div className="p-inputgroup h-4rem ">
+            <div className="col-12 md:col-0" id="inputclient">
+              <div className="p-inputgroup h-4rem xl:h-5rem">
                 <InputText
-                  className="border-primary border-solid border-round sm:border-noround-right"
+                  className="border-primary border-2 border-round sm:border-noround-right
+                  xl:text-3xl"
                   // style={{ width: "800px" }}
                   placeholder="Entrez votre adresse et découvrez les restaurants à proximité..."
                   type="text"
@@ -70,8 +71,8 @@ const HeaderClient = () => {
                   id="button1"
                   type="submit"
                   label="Commander"
-                  className="p-button-primary border-primary sm:w-3 w-11 border-round
-                   absolute sm:static sm:block border-top-left-round border-round-left"
+                  className="p-button-primary border-primary sm:w-3 w-11 border-round sm:border-noround-left
+                   absolute sm:static sm:block border-top-left-round border-round-left xl:text-4xl"
                   value="Commander"
                 />
               </div>
