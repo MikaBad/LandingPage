@@ -8,9 +8,25 @@ import styles from "../../../styles/cryptoBlue.module.css";
 
 const Crypto = () => {
   return (
-    <div>
-      <div id="cryptotxt" className="  sm:ml-8 ml-4 absolute">
-        <h1>
+    <div className={`${styles.globalContainer}`}>
+      <div id="cryptotxt" className={`${styles.cryptoContainer} relative`}>
+        <div className={styles.backgroundBlue}></div>
+        {/* <Image
+          id="crypto1"
+          src={stats}
+          className="w-full absolute "
+          alt="..."
+          style={{
+            objectFit: "cover",
+            objectPosition: "center",
+            zIndex: "-2"
+            // backgroundRepeat: "no-repeat ",
+            // backgroundSize: "cover",
+            // backgroundPosition: "bottom",
+          }}
+        /> */}
+        <div className={styles.titleContainer}>
+        <h1 className="m-0">
           <span
             className="p-2 w-5 text-white 
             sm:text-3xl md:text-4xl lg:text-6xl text-xl border-round"
@@ -19,36 +35,18 @@ const Crypto = () => {
             Payer un repas en crypto ?
           </span>
         </h1>
-        <h1>
-          <span
-            className=" p-2 w-5 text-white sm:text-3xl
-               md:text-4xl lg:text-6xl text-xl border-round -rotate-15"
-            style={{ backgroundColor: "#D71023" }}
-          >
+        <h1 className="p-2 text-white sm:text-3xl
+               md:text-4xl lg:text-6xl text-xl border-round w-9 -rotate-15 m-0 ml-6"
+            style={{ backgroundColor: "#D71023" }}>
+          
             Oui c'est possible !
-          </span>
         </h1>
-      </div>
-      <div>
-        <Image
-          id="crypto1"
-          src={stats}
-          className="w-full relative "
-          alt="..."
-          style={{
-            objectFit: "cover",
-            objectPosition: "center",
-            zIndex: "-2",
-            // backgroundRepeat: "no-repeat ",
-            // backgroundSize: "cover",
-            // backgroundPosition: "bottom",
-          }}
-        />
+        </div>
       </div>
       <div
         id="recharger1"
         className=" mx-auto xl:flex justify-content-between
-         text-white p-4 -mt-8 relative border-white h-16rem xl:h-12rem "
+         text-white p-4 relative border-white h-16rem xl:h-12rem "
         style={{ backgroundColor: "#0A1639", borderRadius: "16px" }}
       >
         <p className="xl:text-xl sm:text-base text-sm font-bold hidden sm:block">

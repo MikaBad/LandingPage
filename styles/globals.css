@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Ubuntu, sans-serif;
   overflow-x: hidden;
 }
 /* body {
@@ -109,16 +110,16 @@ body {
   }
 
   #caroublue {
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    transform: skew(0deg, 5deg);
-    top: -110px;
-    left: 0px;
-    z-index: -2;
-    position: relative;
-    margin-top: -30px !important ;
+    /* width: 100%; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: bottom; */
+    /* transform: skew(0deg, 5deg); */
+    /* top: -110px; */
+    /* left: 0px; */
+    /* z-index: -2; */
+    /* position: relative; */
+    /* margin-top: -30px !important ; */
   }
 
   #inputinfos {
@@ -192,7 +193,7 @@ body {
     left: 0px;
     z-index: -2;
     position: relative;
-    margin-top: -30px !important ;
+    margin-top: 100px !important ;
   }
 
   #inputinfos {
