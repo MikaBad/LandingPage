@@ -10,6 +10,12 @@
   background-color: aliceblue;
 }
 
+.productitem {
+  transition: transform 0.5s ease-in-out;
+
+}
+
+
 .cuisine {
   margin-left: 12px;
   background-color: #0a1639;
@@ -47,9 +53,77 @@
 .carouseldemo {
   margin-top: 1200px;
   background-color: #0a1639;
-  height: 800px;
+  /* height: 800px; */
   z-index: -2;
+  padding: 2rem 0;
 }
+
+.carouseldemo > h1 {
+  color: white;
+  padding: 0;
+  margin: 0;
+  padding-left: 64px;
+  padding-bottom: 48px;
+}
+
+.carousselNew {
+  max-width: 100vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 48px;
+}
+
+.navigationBtnPrev {
+  width: 50px;position: absolute;
+  align-items: center;
+  display: flex;
+  left: 0;
+  z-index: 3;
+  height: 100%;
+  margin-left: 15px;
+  cursor: pointer;
+  user-select: none;
+}
+.navigationBtnNext {
+  width: 50px;position: absolute;
+  align-items: center;
+  display: flex;
+  right: 0;
+  z-index: 2;
+  height: 100%;
+  margin-right: 15px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.itemsContainer {
+  display: flex;
+  max-width: 100%;
+  overflow: hidden;
+  gap: 48px;
+}
+
+.chevronContainer {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chevronLeft {
+  transform: rotate(180deg);
+}
+
+.chevronRight {
+
+}
+
+
 
 @media (min-width: 320px) {
   .carouseldemo .productitem .productitemcontent {
@@ -326,7 +400,7 @@
   .carouseldemo {
     margin-top: 1000px;
     background-color: #0a1639;
-    height: 800px;
+    /* height: 800px; */
     z-index: -2;
   }
 }

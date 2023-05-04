@@ -18,6 +18,33 @@
   z-index: -1;
 }
 
+.backgroundBlue {
+  background-color: #0a1639;
+  /* min-height: 285px; */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 25%);
+  /* position: absolute; */
+  height: 185px;
+  z-index: 3000;
+}
+
+.globalContainer {
+
+  /* min-height: 526px; */
+}
+
+.cryptoContainer {
+  min-height: 526px;
+  background-image: url('/assets/Stats.png');
+  background-repeat: none;
+  background-size: cover;
+}
+
+.titleContainer {
+  position: absolute;
+  top: 72px;
+  left: 67px
+}
+
 /* @media (max-width: 1080px) {
   .tel1 {
     width: 100px;
