@@ -206,7 +206,7 @@ const Caroussel = () => {
             <div className="-mt-3">
               <p>
                 Frais de livraison {item.deliveryFee}€ - {item.deliveryTime} -{" "}
-                {item.distance}{" "}
+                {item.distance}{"  "}
                 <span className={styles.note}>{item.notation}</span>
               </p>
             </div>
