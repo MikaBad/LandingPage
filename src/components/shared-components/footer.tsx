@@ -62,7 +62,9 @@ const Footer = () => {
         <div>
           <h6 className="sm:text-lg md:text-xl text-base">CONTACT</h6>
           <ul className={styles.ul}>
-            <li className="pb-3 md:text-lg text-base">Tel: 06.00.00.00.00</li>
+            <li className="pb-3 md:text-lg text-base">
+              Tel: +33 (0)1 80 91 62 62
+            </li>
             <li className="pb-3 md:text-lg text-base">
               Mail: contact@nojyk.fr
             </li>
