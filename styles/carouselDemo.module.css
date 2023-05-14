@@ -73,6 +73,7 @@
   flex-direction: column;
   position: relative;
   gap: 48px;
+  overflow: hidden;
 }
 
 .navigationBtnPrev {

@@ -55,10 +55,24 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    margin-top: -70px;
     content: "";
     background: inherit;
     transform-origin: bottom right;
-    transform: skewy(9deg);
+    transform: skewy(6deg);
+    z-index: -1;
+  }
+}
+@media (max-width: 1265px) {
+  .diagonal::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -70px;
+    content: "";
+    background: inherit;
+    transform-origin: bottom right;
+    transform: skewy(6deg);
     z-index: -1;
   }
 }
@@ -70,7 +84,7 @@
     height: 1200px;
     background: #0a1639;
     z-index: -1;
-    margin-top: -100px;
+    margin-top: -170px;
   }
 
   .content {
@@ -96,12 +110,10 @@
 }
 
 @media (max-width: 991px) {
-.diagonal {
-   margin-top: 100px ;
+  .diagonal {
+    margin-top: 100px;
   }
 }
-
-
 
 @media (max-width: 768px) {
   .video {

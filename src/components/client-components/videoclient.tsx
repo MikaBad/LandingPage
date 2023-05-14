@@ -91,17 +91,18 @@ const VideoClient = () => {
         >
           <p className="md:text-xl sm:text-lg text-base">
             {" "}
-            Les équipes Nojyk sont basée à Paris & Marseille.
+            NOJYK, c'est l’application 100% made in Marseille ! On est fiers de
+            notre ville
           </p>
           <p className="md:text-xl sm:text-lg text-base ">
             {" "}
-            Depuis ces villes nous développons une nouvelle application de
-            commande en ligne,
+            et de notre culture culinaire, et on veut la partager avec le monde
+            entier. Alors, n'hésite plus,
           </p>
           <p className="md:text-xl sm:text-lg text-base">
             {" "}
-            afin de vous offrir des repas plus respectueux des restaurateurs et
-            livreurs
+            commande avec nous! et fais découvrir les saveurs de Marseille à tes
+            amis !"
           </p>
         </span>
         <Image

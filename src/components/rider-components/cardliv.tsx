@@ -44,7 +44,8 @@ const CardLiv = () => {
                ml-6 xl:-ml-8 text-2xl"
               style={{ color: "#0a1639" }}
             >
-              Les livreurs chez Nojyk
+              Rejoignez nos livreurs et gagnez de l'argent en faisant des
+              livraisons
             </h1>
             <span
               id="bluelineC"
@@ -65,19 +66,37 @@ const CardLiv = () => {
               style={{ color: "#0a1639" }}
             >
               {" "}
-              Commandez en Click & Collect !
+              Rejoignez notre équipe de livreurs dévouée et gagnez de
             </p>
             <p
               className="text-right text-2xl hidden lg:block line-height-1"
               style={{ color: "#0a1639" }}
             >
-              Sélectionnez votre repas et choisissez
+              l'argent en effectuant des livraisons pour notre application
             </p>
             <p
               className="text-right text-2xl hidden lg:block line-height-1"
               style={{ color: "#0a1639" }}
             >
-              l'heure de retrait.
+              de livraison de plats locaux.
+            </p>
+            <p
+              className="text-right text-2xl hidden lg:block line-height-1"
+              style={{ color: "#0a1639" }}
+            >
+              En travaillant pour Nojyk, vous pouvez choisir vos propres
+            </p>
+            <p
+              className="text-right text-2xl hidden lg:block line-height-1"
+              style={{ color: "#0a1639" }}
+            >
+              horaires de travail et profiter d'une grande flexibilité.
+            </p>
+            <p
+              className="text-right text-2xl hidden lg:block line-height-1"
+              style={{ color: "#0a1639" }}
+            >
+              Rejoinez la seule application de livraison made in marseille
             </p>
           </div>
           <Image
@@ -111,19 +130,37 @@ const CardLiv = () => {
               style={{ color: "#0a1639" }}
             >
               {" "}
-              Commandez en Click & Collect !
+              Rejoignez notre équipe de livreurs dévouée et gagnez de
             </p>
             <p
               className="text-left sm:text-2xl text-xl lg:hidden"
               style={{ color: "#0a1639" }}
             >
-              Sélectionnez votre repas et choisissez
+              l'argent en effectuant des livraisons pour notre application
             </p>
             <p
               className="text-left sm:text-2xl text-xl lg:hidden"
               style={{ color: "#0a1639" }}
             >
-              l'heure de retrait.
+              de livraison de plats locaux.
+            </p>
+            <p
+              className="text-left sm:text-2xl text-xl lg:hidden"
+              style={{ color: "#0a1639" }}
+            >
+              En travaillant pour Nojyk, vous pouvez choisir vos propres
+            </p>
+            <p
+              className="text-left sm:text-2xl text-xl lg:hidden"
+              style={{ color: "#0a1639" }}
+            >
+              horaires de travail et profiter d'une grande flexibilité.
+            </p>
+            <p
+              className="text-left sm:text-2xl text-xl lg:hidden"
+              style={{ color: "#0a1639" }}
+            >
+              Rejoinez la seule application de livraison made in marseille
             </p>
           </div>
         </div>
@@ -136,7 +173,7 @@ const CardLiv = () => {
               className="xl:text-6xl lg:text-5xl 
             text-white lg:hidden text-2xl ml-6 sm:ml-8"
             >
-              Livraison
+              La rémunération
             </h1>
             <span
               id="bluelineCL"
@@ -163,7 +200,7 @@ const CardLiv = () => {
             </div>
             <div className=" lg:text-white sm:ml-8 ml-2">
               <h1 className="xl:text-6xl lg:text-5xl hidden lg:block -mt-2">
-                Livraison
+                La rémunération
               </h1>
               <span
                 id="bluelineL"
@@ -180,13 +217,32 @@ const CardLiv = () => {
               ></span>
               <p className="sm:text-2xl text-xl text-white line-height-1">
                 {" "}
-                Entrez votre adresse et faites vous livrer,
+                Nous savons que la livraison est un travail difficile et
+                exigeant,
               </p>
               <p className="sm:text-2xl text-xl  text-white line-height-1">
-                à domicile, sur votre lieu de travail, ...
+                c'est pourquoi nous nous voulons offrir des conditions de
+                travail
               </p>
               <p className="sm:text-2xl text-xl text-white line-height-1">
-                ou vous le souhaitez !
+                plus équitables et transparentes à tous nos livreurs partenaire
+                .
+              </p>
+              <p className="sm:text-2xl text-xl text-white line-height-1">
+                Nous avons mis en place un système de rémunération plus
+                équitable.
+              </p>
+              <p className="sm:text-2xl text-xl text-white line-height-1">
+                Nous sommes conscients que chaque livreur est unique et a des
+              </p>
+              <p className="sm:text-2xl text-xl text-white line-height-1">
+                besoins différents.C'est pourquoi nous offrons des options
+              </p>
+              <p className="sm:text-2xl text-xl text-white line-height-1">
+                flexibles pour travailler à temps plein ou à temps partiel,
+              </p>
+              <p className="sm:text-2xl text-xl text-white line-height-1">
+                selon vos préférences et vos horaires.
               </p>
             </div>
           </div>
@@ -197,7 +253,7 @@ const CardLiv = () => {
                 className="lg:text-right xl:text-6xl 
               lg:text-5xl ml-6 sm:ml-8 lg:ml-0 -mt-2 hidden lg:block "
               >
-                La rémunération
+                Notre vision
               </h1>
               <span
                 id="bluelineR"
@@ -218,19 +274,61 @@ const CardLiv = () => {
                 style={{ color: "#0a1639" }}
               >
                 {" "}
-                Commandez en Click & Collect !
+                Nous ne sommes pas seulement une plateforme de livraison,
               </p>
               <p
                 className="text-right text-2xl hidden lg:block line-height-1"
                 style={{ color: "#0a1639" }}
               >
-                Sélectionnez votre repas et choisissez
+                nous sommes une communauté. Nous nous engageons à offrir à nos
+                clients
               </p>
               <p
                 className="text-right text-2xl hidden lg:block line-height-1"
                 style={{ color: "#0a1639" }}
               >
-                l'heure de retrait.
+                une expérience de livraison exceptionnelle, en leur proposant
+                des plats de qualité
+              </p>
+              <p
+                className="text-right text-2xl hidden lg:block line-height-1"
+                style={{ color: "#0a1639" }}
+              >
+                et en leur garantissant une livraison rapide et fiable.
+              </p>
+              <p
+                className="text-right text-2xl hidden lg:block line-height-1"
+                style={{ color: "#0a1639" }}
+              >
+                Nous recherchons des personnes dynamiques et motivées,
+              </p>
+              <p
+                className="text-right text-2xl hidden lg:block line-height-1"
+                style={{ color: "#0a1639" }}
+              >
+                prêtes à offrir une expérience de livraison exceptionnelle à nos
+                clients.
+              </p>
+              <p
+                className="text-right text-2xl hidden lg:block line-height-1"
+                style={{ color: "#0a1639" }}
+              >
+                Si vous êtes prêt à rejoindre notre équipe de livreurs
+                passionnés et à offrir
+              </p>
+              <p
+                className="text-right text-2xl hidden lg:block line-height-1"
+                style={{ color: "#0a1639" }}
+              >
+                une expérience de livraison unique à Marseille, envoyez-nous
+                votre candidature
+              </p>
+              <p
+                className="text-right text-2xl hidden lg:block line-height-1"
+                style={{ color: "#0a1639" }}
+              >
+                dès maintenant. Nous avons hâte de vous accueillir dans notre
+                communauté.
               </p>
               <Button
                 id="btndevenir"
@@ -247,7 +345,7 @@ const CardLiv = () => {
                 className="lg:text-right xl:text-6xl 
               lg:text-5xl text-2xl ml-6 sm:ml-8 lg:ml-0 -mt-2"
               >
-                La rémunération
+                Notre vision
               </h1>
               <span
                 id="bluelineR"
@@ -267,7 +365,7 @@ const CardLiv = () => {
             <Image
               id="card"
               src={PLiv2}
-              className="sm:mr-8 ml-2 lg:ml-8 mt-4 
+              className="sm:ml-8 ml-2 lg:ml-8 mt-4 
           lg:mt-0"
               alt=""
             />
@@ -277,19 +375,61 @@ const CardLiv = () => {
                 style={{ color: "#0a1639" }}
               >
                 {" "}
-                Commandez en Click & Collect !
+                Nous ne sommes pas seulement une plateforme de livraison,
               </p>
               <p
                 className="text-left sm:text-2xl text-xl lg:hidden"
                 style={{ color: "#0a1639" }}
               >
-                Sélectionnez votre repas et choisissez
+                nous sommes une communauté. Nous nous engageons à offrir à nos
+                clients
               </p>
               <p
                 className="text-left sm:text-2xl text-xl lg:hidden"
                 style={{ color: "#0a1639" }}
               >
-                l'heure de retrait.
+                une expérience de livraison exceptionnelle, en leur proposant
+                des plats de qualité
+              </p>
+              <p
+                className="text-left sm:text-2xl text-xl lg:hidden"
+                style={{ color: "#0a1639" }}
+              >
+                et en leur garantissant une livraison rapide et fiable.
+              </p>
+              <p
+                className="text-left sm:text-2xl text-xl lg:hidden"
+                style={{ color: "#0a1639" }}
+              >
+                Nous recherchons des personnes dynamiques et motivées,
+              </p>
+              <p
+                className="text-left sm:text-2xl text-xl lg:hidden"
+                style={{ color: "#0a1639" }}
+              >
+                prêtes à offrir une expérience de livraison exceptionnelle à nos
+                clients.
+              </p>
+              <p
+                className="text-left sm:text-2xl text-xl lg:hidden"
+                style={{ color: "#0a1639" }}
+              >
+                Si vous êtes prêt à rejoindre notre équipe de livreurs
+                passionnés et à offrir
+              </p>
+              <p
+                className="text-left sm:text-2xl text-xl lg:hidden"
+                style={{ color: "#0a1639" }}
+              >
+                une expérience de livraison unique à Marseille, envoyez-nous
+                votre candidature
+              </p>
+              <p
+                className="text-left sm:text-2xl text-xl lg:hidden"
+                style={{ color: "#0a1639" }}
+              >
+                dès maintenant. Nous avons hâte de vous accueillir dans notre
+                communauté.
               </p>
               <Button
                 className="flex sm:text-4xl text-white px-6 border-round 

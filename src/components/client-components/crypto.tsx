@@ -26,21 +26,22 @@ const Crypto = () => {
           }}
         /> */}
         <div className={styles.titleContainer}>
-        <h1 className="m-0">
-          <span
-            className="p-2 w-5 text-white 
+          <h1 className="m-0">
+            <span
+              className="p-2 w-5 text-white 
             sm:text-3xl md:text-4xl lg:text-6xl text-xl border-round"
+              style={{ backgroundColor: "#D71023" }}
+            >
+              Payer un repas en crypto ?
+            </span>
+          </h1>
+          <h1
+            className="p-2 text-white sm:text-3xl
+               md:text-4xl lg:text-6xl text-xl border-round w-9 -rotate-15 m-0 ml-6"
             style={{ backgroundColor: "#D71023" }}
           >
-            Payer un repas en crypto ?
-          </span>
-        </h1>
-        <h1 className="p-2 text-white sm:text-3xl
-               md:text-4xl lg:text-6xl text-xl border-round w-9 -rotate-15 m-0 ml-6"
-            style={{ backgroundColor: "#D71023" }}>
-          
             Oui c'est possible !
-        </h1>
+          </h1>
         </div>
       </div>
       <div
@@ -50,9 +51,10 @@ const Crypto = () => {
         style={{ backgroundColor: "#0A1639", borderRadius: "16px" }}
       >
         <p className="xl:text-xl sm:text-base text-sm font-bold hidden sm:block">
-          Rechargez votre carte NOJYK virtuel via nos services <br />
-          partenaires, et utiliser vos cryptomonnaie dans la vie <br /> de tous
-          les jours.
+          On accepte les cryptos, le S ! Si t'as de la crypto-monnaie, <br />
+          tu peux payer avec chez nous. C'est la bouffe de chez nous,<br /> avec la
+          monnaie de demain ! 
+          
         </p>
         <p className="xl:text-xl sm:text-base text-sm font-bold sm:hidden">
           <p>

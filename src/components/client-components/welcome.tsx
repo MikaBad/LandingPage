@@ -25,7 +25,10 @@ const Welcome = () => {
       <div className={styles.content1}>
         <p className="sm:text-xl xl:text-3xl mt-5  text-center">
           {" "}
-          Votre nouveau service pour consommer les repas de votre choix{" "}
+          On a réuni les meilleurs restos de Marseille pour que tu puisses
+          savourer les meilleurs plats de marseille <br />
+          sans bouger de chez toi sans te ruiner. On te garantit un vrai festin
+          validé par la team NOJYK au meilleur prix .
         </p>
       </div>
       <span

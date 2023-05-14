@@ -17,7 +17,8 @@ const CardVideoRest = () => {
              lg:hidden text-2xl ml-6 sm:ml-8"
             // style={{ color: "#0a1639" }}
           >
-            Livraison Nojyk
+            Rejoignez NOJYK et participez à la révolution de la livraison de
+            repas à Marseille
           </h1>
           <span
             id="bluelineCL"
@@ -45,7 +46,7 @@ const CardVideoRest = () => {
           </div> */}
           <div className=" lg: sm:ml-8 ml-2" style={{ color: "#0a1639" }}>
             <h1 className="xl:text-6xl lg:text-4xl hidden lg:block -mt-2">
-              Livraison Nojyk
+              Pourquoi rejoindre NOJYK pour votre livraison ?
             </h1>
             <span
               id="bluelineL"
@@ -63,12 +64,48 @@ const CardVideoRest = () => {
             <div style={{ color: "#0a1639" }}>
               <p className="sm:text-2xl text-xl">
                 {" "}
-                Entrez votre adresse et faites vous livrer,
+                " Nous comprenons les défis que vous rencontrez au quotidien
+                pour gérer votre
               </p>
               <p className="sm:text-2xl text-xl ">
-                à domicile, sur votre lieu de travail, ...
+                entreprise, surtout lorsque cela implique la livraison de vos
+                repas.
               </p>
-              <p className="sm:text-2xl text-xl">ou vous le souhaitez !</p>
+              <p className="sm:text-2xl text-xl">
+                Chez NOJYK, nous croyons qu'il est temps de changer cela et de
+                créer une réelle
+              </p>
+              <p className="sm:text-2xl text-xl">
+                alternative aux applications de livraison de repas
+                traditionnelles.
+              </p>
+              <p className="sm:text-2xl text-xl">
+                Nous croyons en une relation équitable avec nos restaurateurs
+                partenaires. Et nous
+              </p>
+              <p className="sm:text-2xl text-xl">
+                savons que chaque vente est importante pour vous, c'est pourquoi
+                nous avons
+              </p>
+              <p className="sm:text-2xl text-xl">
+                la commission la plus basse du marché.
+              </p>
+              <p className="sm:text-2xl text-xl">
+                On ne cache aucun coût ni ne facturons de frais supplémentaires.
+              </p>
+              <p className="sm:text-2xl text-xl">
+                Car notre objectif est de vous aider à augmenter vos ventes tout
+                en maximisant
+              </p>
+              <p className="sm:text-2xl text-xl">
+                vos bénéfices. Nous voulons que nos partenaires se sentent à
+                l'aise en travaillant
+              </p>
+              <p className="sm:text-2xl text-xl">
+                avec nous, sachant qu'ils obtiennent le meilleur service
+                possible et qu'ils peuvent
+              </p>
+              <p className="sm:text-2xl text-xl">compter sur notre soutien."</p>
             </div>
           </div>
         </div>
@@ -247,12 +284,24 @@ const CardVideoRest = () => {
             <div id="colortxt" style={{ color: "#0a1639" }}>
               <p className="sm:text-2xl text-lg ">
                 {" "}
-                Entrez votre adresse et faites vous livrer,
+                " Nous savons que votre restaurant est plus qu'un simple lieu de
+                restauration
               </p>
               <p className="sm:text-2xl text-lg">
-                à domicile, sur votre lieu de travail, ...
+                c'est un lieu de passion, d'innovation et de communauté.
               </p>
-              <p className="sm:text-2xl text-lg">ou vous le souhaitez !</p>
+              <p className="sm:text-2xl text-lg">
+                Chez NOJYK, nous partageons cette même passion pour la
+                nourriture et la culture
+              </p>
+              <p className="sm:text-2xl text-lg">marseillaise.</p>
+              <p className="sm:text-2xl text-lg">
+                C'est pourquoi nous avons créé la meilleure solution de
+                livraison
+              </p>
+              <p className="sm:text-2xl text-lg">
+                pour les restaurants marseillais. "
+              </p>
             </div>
           </div>
         </div>
@@ -280,13 +329,33 @@ const CardVideoRest = () => {
             ></span>
             <p className="text-right text-2xl hidden lg:block">
               {" "}
-              Commandez en Click & Collect !
+              " En rejoignant la Révolution Nojyk, vous rejoignez une
+              communauté.
             </p>
             <p className="text-right text-2xl hidden lg:block">
-              Sélectionnez votre repas et choisissez
+              Commandez en Click & Collect ! de restaurateurs et de clients
+              engagés
             </p>
             <p className="text-right text-2xl hidden lg:block">
-              l'heure de retrait.
+              pour une livraison plus responsable, plus juste et plus locale.
+            </p>
+            <p className="text-right text-2xl hidden lg:block">
+              Alors, rejoignez-nous dès maintenant et faites partie de la
+              révolution
+            </p>
+            <p className="text-right text-2xl hidden lg:block">
+              de la livraison à Marseille. Des dizaines de restaurants
+              marseillais font
+            </p>
+            <p className="text-right text-2xl hidden lg:block">
+              déjà confiance à NOJYK pour la livraison et le click & collect.
+            </p>
+
+            <p className="text-right text-2xl hidden lg:block">
+              Rejoignez-nous pour faire partie de cette communauté florissante
+            </p>
+            <p className="text-right text-2xl hidden lg:block">
+              et voir votre entreprise prospérer et vos clients se régaler."
             </p>
           </div>
           <Image
@@ -302,10 +371,32 @@ const CardVideoRest = () => {
               Commandez en Click & Collect !
             </p>
             <p className="text-left sm:text-2xl text-lg lg:hidden">
-              Sélectionnez votre repas et choisissez
+              " En rejoignant la Révolution Nojyk, vous rejoignez une
+              communauté.
             </p>
             <p className="text-left sm:text-2xl text-lg lg:hidden">
-              l'heure de retrait.
+              Commandez en Click & Collect ! de restaurateurs et de clients
+              engagés
+            </p>
+            <p className="text-left sm:text-2xl text-lg lg:hidden">
+              pour une livraison plus responsable, plus juste et plus locale.
+            </p>
+            <p className="text-left sm:text-2xl text-lg lg:hidden">
+              Alors, rejoignez-nous dès maintenant et faites partie de la
+              révolution
+            </p>
+            <p className="text-left sm:text-2xl text-lg lg:hidden">
+              de la livraison à Marseille. Des dizaines de restaurants
+              marseillais font
+            </p>
+            <p className="text-left sm:text-2xl text-lg lg:hidden">
+              déjà confiance à NOJYK pour la livraison et le click & collect.
+            </p>
+            <p className="text-left sm:text-2xl text-lg lg:hidden">
+              Rejoignez-nous pour faire partie de cette communauté florissante
+            </p>
+            <p className="text-left sm:text-2xl text-lg lg:hidden">
+              et voir votre entreprise prospérer et vos clients se régaler."
             </p>
           </div>
         </div>

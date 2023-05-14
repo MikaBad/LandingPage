@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 body {
   margin: 0;
@@ -310,6 +310,7 @@ body {
   }
   #remutitle575 {
     margin-top: 110px;
+    margin-right: 100px;
   }
 }
 
@@ -525,7 +526,6 @@ body {
 }
 
 /* rotate 1 et 2 pour header CLIENT*/
-
 
 #rotate5 {
   transform: rotate(2.03deg);

@@ -27,6 +27,15 @@ const PresentationRest = () => {
           <Image src={rest5} className="w-2 h-13rem" alt="..." />
         </div>
       </div>
+      <div
+        className="flex justify-content-center xl:text-4xl lg:text-3xl text-center p-8 "
+        style={{ color: "#0a1639" }}
+      >
+        <p> </p>NOJYK c’est l’application de livraison créée à Marseille, pour
+        les Marseillais. Notre mission est de révolutionner le marché de la
+        livraison en offrant une alternative locale plus juste, plus équitable
+        et plus rentable pour nos restaurateurs
+      </div>
 
       <div className="mt- xl:hidden md:block hidden w- sm:w- justify-content-between px-3">
         <span className="flex py-5 justify-content-between">

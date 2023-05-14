@@ -27,7 +27,7 @@ const HeaderClient = () => {
             sm:text-4xl md:text-5xl lg:text-6xl text-2xl border-round"
               style={{ backgroundColor: "#D71023" }}
             >
-              Qu'est ce qu'on mange
+              Le goût de Marseille
             </span>
           </h1>
           <h1 id="rotate2">
